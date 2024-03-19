@@ -4301,6 +4301,12 @@
 			(uuid "12a6f32d-14c8-41dc-b52e-ace608798011")
 		)
 		(instances
+			(project "STM32F0"
+				(path "/1d689524-f4c9-4475-b49e-d2e3c2637440"
+					(reference "C7")
+					(unit 1)
+				)
+			)
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "C7")
@@ -4368,6 +4374,12 @@
 			(uuid "9e15d3f9-57bb-4227-b5b0-f0d7842306a0")
 		)
 		(instances
+			(project "STM32F0"
+				(path "/1d689524-f4c9-4475-b49e-d2e3c2637440"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "TP1")
@@ -4510,6 +4522,12 @@
 			(uuid "bd7465b5-f0cf-47d2-a9d3-5e01b5015e06")
 		)
 		(instances
+			(project "STM32F0"
+				(path "/1d689524-f4c9-4475-b49e-d2e3c2637440"
+					(reference "C9")
+					(unit 1)
+				)
+			)
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "C9")
@@ -4718,6 +4736,12 @@
 			(uuid "f2ff34b3-ee67-4c1f-b5dd-8740dac58761")
 		)
 		(instances
+			(project "STM32F0"
+				(path "/1d689524-f4c9-4475-b49e-d2e3c2637440"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "U1")
@@ -4850,6 +4874,12 @@
 			(uuid "a6d58eeb-a413-474a-b87b-7ed6a82c9336")
 		)
 		(instances
+			(project "STM32F0"
+				(path "/1d689524-f4c9-4475-b49e-d2e3c2637440"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "C3")
@@ -4919,6 +4949,12 @@
 			(uuid "ecc71b5d-b4be-437b-9c25-cbf450a0bcac")
 		)
 		(instances
+			(project "STM32F0"
+				(path "/1d689524-f4c9-4475-b49e-d2e3c2637440"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "R7")
@@ -4995,6 +5031,12 @@
 			(uuid "6075d39d-c0dd-4660-adfb-c67e9a14e56f")
 		)
 		(instances
+			(project "STM32F0"
+				(path "/1d689524-f4c9-4475-b49e-d2e3c2637440"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "Q1")
@@ -5063,6 +5105,12 @@
 			(uuid "483c3724-a17d-4a2a-8c90-e86cd9ef3bc2")
 		)
 		(instances
+			(project "STM32F0"
+				(path "/1d689524-f4c9-4475-b49e-d2e3c2637440"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "C2")
@@ -5205,6 +5253,12 @@
 			(uuid "a3caf059-14d5-4371-8c17-3ec3760b6cdd")
 		)
 		(instances
+			(project "STM32F0"
+				(path "/1d689524-f4c9-4475-b49e-d2e3c2637440"
+					(reference "C8")
+					(unit 1)
+				)
+			)
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "C8")
@@ -5337,6 +5391,12 @@
 			(uuid "7aded120-9fe2-41b5-b217-319b1f216f0c")
 		)
 		(instances
+			(project "STM32F0"
+				(path "/1d689524-f4c9-4475-b49e-d2e3c2637440"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "C4")
@@ -5406,6 +5466,12 @@
 			(uuid "fa7197a4-3b55-458c-b7f0-903388fb9f9f")
 		)
 		(instances
+			(project "STM32F0"
+				(path "/1d689524-f4c9-4475-b49e-d2e3c2637440"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "R5")
@@ -5548,6 +5614,12 @@
 			(uuid "b18a1a82-4f39-4da8-94ba-ee1e5b2613c2")
 		)
 		(instances
+			(project "STM32F0"
+				(path "/1d689524-f4c9-4475-b49e-d2e3c2637440"
+					(reference "D20")
+					(unit 1)
+				)
+			)
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "D20")
@@ -5617,6 +5689,12 @@
 			(uuid "be2ee785-bebb-4928-8f76-ad0bdaba267c")
 		)
 		(instances
+			(project "STM32F0"
+				(path "/1d689524-f4c9-4475-b49e-d2e3c2637440"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "R4")
@@ -5749,6 +5827,12 @@
 			(uuid "1134a79a-b64d-4227-aeef-88afbdb9f076")
 		)
 		(instances
+			(project "STM32F0"
+				(path "/1d689524-f4c9-4475-b49e-d2e3c2637440"
+					(reference "C6")
+					(unit 1)
+				)
+			)
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "C6")
@@ -5817,6 +5901,12 @@
 			(uuid "78d0a61b-4b8d-4cb8-ad43-aae935ab7fab")
 		)
 		(instances
+			(project "STM32F0"
+				(path "/1d689524-f4c9-4475-b49e-d2e3c2637440"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "SW13")
@@ -5886,6 +5976,12 @@
 			(uuid "27912012-0bc4-4f8b-8c3b-6f3d22b8ba18")
 		)
 		(instances
+			(project "STM32F0"
+				(path "/1d689524-f4c9-4475-b49e-d2e3c2637440"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "R6")
@@ -5969,6 +6065,12 @@
 			(uuid "28f20d4f-54d4-4e58-afca-4cab70a2343e")
 		)
 		(instances
+			(project "STM32F0"
+				(path "/1d689524-f4c9-4475-b49e-d2e3c2637440"
+					(reference "J2")
+					(unit 1)
+				)
+			)
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "J2")
@@ -6114,6 +6216,12 @@
 			(uuid "e6605228-f57e-49b8-89eb-5170de4511d0")
 		)
 		(instances
+			(project "STM32F0"
+				(path "/1d689524-f4c9-4475-b49e-d2e3c2637440"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "Y1")
@@ -6246,6 +6354,12 @@
 			(uuid "bc43e759-5e96-4cf5-ae54-53c8f3957170")
 		)
 		(instances
+			(project "STM32F0"
+				(path "/1d689524-f4c9-4475-b49e-d2e3c2637440"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "C5")
@@ -6313,6 +6427,12 @@
 			(uuid "83c58026-85f5-4923-b919-67d09c6c2bfd")
 		)
 		(instances
+			(project "STM32F0"
+				(path "/1d689524-f4c9-4475-b49e-d2e3c2637440"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "TP2")
@@ -6383,12 +6503,23 @@
 			(uuid "fe6257ea-abbb-4754-acbb-4e9fed44f17e")
 		)
 		(instances
+			(project "STM32F0"
+				(path "/1d689524-f4c9-4475-b49e-d2e3c2637440"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "C1")
 					(unit 1)
 				)
 			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )
