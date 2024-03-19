@@ -6002,7 +6002,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LocalLib:Crystal_SMD_ECX-32-4Pin_3.2x2.5mm"
+		(property "Footprint" "Mad_Footprints:Crystal_SMD_ECX-32-4Pin_3.2x2.5mm"
 			(at 85.09 90.805 0)
 			(effects
 				(font
