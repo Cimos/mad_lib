@@ -8575,7 +8575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm"
+		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm"
 			(at 194.31 88.9 0)
 			(effects
 				(font
