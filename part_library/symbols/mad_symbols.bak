@@ -40,16 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Placeholder for a PCB part in the BOM"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "This"
+		(property "Description" ""
 			(at 0 0 0)
 			(effects
 				(font

@@ -1,4 +1,4 @@
-(footprint "BOM Only"
+(footprint "BOM"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "BOM Only"
+	(property "Value" "BOM"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
