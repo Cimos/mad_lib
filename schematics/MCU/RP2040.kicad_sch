@@ -7992,7 +7992,7 @@
 				)
 			)
 		)
-		(property "Value" "GD25LQ128DYIGR"
+		(property "Value" "GD25Q127CWIGR"
 			(at 140.97 125.73 0)
 			(effects
 				(font
@@ -8000,7 +8000,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm"
+		(property "Footprint" "Mad_Footprints:GD25LQ128DYIGR"
 			(at 137.16 134.62 0)
 			(effects
 				(font
@@ -8018,7 +8018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FLASH - NOR Memory IC 128Mbit SPI - Quad I/O 120 MHz 8-WSON (6x8)"
+		(property "Description" "FLASH - NOR Memory IC 128Mbit SPI - Quad I/O 104 MHz 8-WSON (5x6)"
 			(at 137.16 134.62 0)
 			(effects
 				(font
@@ -8072,7 +8072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "1970-1088-1-ND"
+		(property "Supplier PN" "1970-1048-1-ND"
 			(at 137.16 134.62 0)
 			(effects
 				(font
@@ -8081,7 +8081,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GD25LQ128DYIGR"
+		(property "MPN" "GD25Q127CWIGR"
 			(at 137.16 134.62 0)
 			(effects
 				(font
@@ -9748,7 +9748,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 102.87 97.79 0)
 			(effects
 				(font
