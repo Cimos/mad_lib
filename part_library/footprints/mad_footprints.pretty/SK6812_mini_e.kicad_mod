@@ -1,0 +1,186 @@
+(footprint "SK6812_mini_e"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SK6812, RGB, LED, Adafruit")
+	(tags "SK6812, RGB, LED, Adafruit")
+	(property "Reference" "REF**"
+		(at 0.05 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "979a25fe-d40d-4ee8-8e0a-c0d0fe716357")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SK6812_mini_e"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6bc51adc-60b2-488c-973e-8fe5a8f383ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b76d4c8a-dac9-456f-bffc-92a9751b1c49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "924509b9-dff3-4fe2-ace2-b02f98148b19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9376ab37-af77-48f1-9e85-fffa93d28554")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "7574b420-fe2c-405e-ae17-76a458e9027a")
+	)
+	(fp_line
+		(start -1.7 -1.5)
+		(end 1.7 -1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8c74bfb5-702d-42cc-b3f6-7b7ce80a26d3")
+	)
+	(fp_line
+		(start -1.7 1.5)
+		(end -1.7 -1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "da996b55-34c5-42a2-9737-d4acaeb4bce1")
+	)
+	(fp_line
+		(start 1.7 -1.5)
+		(end 1.7 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00b95bf6-01ad-48b3-bb15-60fde8f9227d")
+	)
+	(fp_line
+		(start 1.7 1.5)
+		(end -1.7 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1229caee-0728-46b7-a66f-5903c77d81f0")
+	)
+	(fp_rect
+		(start -3.5 -2.375)
+		(end 3.5 2.375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "9f6c2186-55b3-46e4-918e-16c1c772dd60")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5abcb77e-cff4-4dd6-8e42-7ee4c5dcf5a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.55 0.75)
+		(size 1.7 0.82)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "1d124711-337c-426a-8e85-434aa7598d48")
+	)
+	(pad "2" smd roundrect
+		(at -2.55 -0.75)
+		(size 1.7 0.82)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "5ff4b04f-9c1d-498f-b098-1e2117b84e0d")
+	)
+	(pad "3" smd roundrect
+		(at 2.55 -0.75)
+		(size 1.7 0.82)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "25fa4afa-1e0d-4956-a85f-eed10534f389")
+	)
+	(pad "4" smd roundrect
+		(at 2.55 0.75)
+		(size 1.7 0.82)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "79c931a4-4499-4ddb-862b-855345f05a73")
+	)
+	(model "${KIPRJMOD}/mad_lib/part_library/models/Adafruit/LED_SK6812MINI-E.step"
+		(offset
+			(xyz 0 -5.1 -1.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 -180)
+		)
+	)
+)
