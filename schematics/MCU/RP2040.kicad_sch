@@ -248,211 +248,6 @@
 				)
 			)
 		)
-		(symbol "Device:Crystal_GND24_Small"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 1.27 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Crystal_GND24_Small"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz ceramic resonator oscillator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Crystal_GND24_Small_0_1"
-				(rectangle
-					(start -0.762 -1.524)
-					(end 0.762 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -0.762) (xy -1.27 0.762)
-					)
-					(stroke
-						(width 0.381)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -0.762) (xy 1.27 0.762)
-					)
-					(stroke
-						(width 0.381)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 -1.905) (xy 1.27 -1.905) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 1.905) (xy 1.27 1.905) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_GND24_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.635)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.635)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -917,6 +712,161 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mad_Symbols:ECS-2520MV-xxx-xx"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at -5.08 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ECS-2520MV-xxx-xx"
+				(at -7.874 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Oscillator:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm"
+				(at 2.413 -10.287 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf"
+				(at -13.462 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "HCMOS Crystal Clock Oscillator, 2.5x2.0 mm SMD"
+				(at -9.017 -1.397 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Crystal Clock Oscillator ECS SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Oscillator*SMD*ECS*2520MV*2.5x2.0mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ECS-2520MV-xxx-xx_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "ECS-2520MV-xxx-xx_1_1"
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "Tri-State"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2543,142 +2493,6 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:NCP1117-3.3_SOT223"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NCP1117-3.3_SOT223"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF"
-				(at 2.54 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1A Low drop-out regulator, Fixed Output 3.3V, SOT-223"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "REGULATOR LDO 3.3V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?223*TabPin2*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NCP1117-3.3_SOT223_0_1"
-				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "NCP1117-3.3_SOT223_1_1"
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -2844,22 +2658,10 @@
 		(uuid "0e8f7fc0-2ef2-4b90-9c15-8a3a601ee459")
 	)
 	(junction
-		(at 167.64 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f05f6f7-1a44-438d-9516-b4717c0f5c87")
-	)
-	(junction
-		(at 43.18 67.945)
+		(at 31.75 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "171c9fd8-033b-404c-a71b-68665d826c2a")
-	)
-	(junction
-		(at 53.34 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2006b014-2f78-4535-badc-656accad376e")
 	)
 	(junction
 		(at 180.34 160.02)
@@ -2874,12 +2676,6 @@
 		(uuid "24fb9971-4feb-4d10-aa2c-29fd6a65bbaa")
 	)
 	(junction
-		(at 167.64 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "28b24457-756b-4f57-a156-20e3968982ba")
-	)
-	(junction
 		(at 172.72 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2892,25 +2688,19 @@
 		(uuid "34ce5d56-35eb-474c-b724-1ba6bb64c5ed")
 	)
 	(junction
-		(at 116.84 75.565)
+		(at 105.41 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34efab2d-0f65-4948-ae96-2ee5ebbb8556")
 	)
 	(junction
-		(at 157.48 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37fbeda2-b41d-45ca-ad92-df01f8c547fb")
-	)
-	(junction
-		(at 69.85 67.945)
+		(at 58.42 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "381e63ae-fc5a-4ca6-908e-b1561ef3d05a")
 	)
 	(junction
-		(at 69.85 102.235)
+		(at 58.42 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b34aa4e-88db-4c17-8f41-d7dc2a6848bd")
@@ -2928,19 +2718,19 @@
 		(uuid "47a0add3-bc04-4315-bdee-074eed636bf4")
 	)
 	(junction
-		(at 95.25 81.915)
+		(at 83.82 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "507206e3-49ff-471c-bba5-2676bac9f5fc")
 	)
 	(junction
-		(at 59.69 90.805)
+		(at 48.26 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59397421-f4b9-4740-a531-747849fe79cf")
 	)
 	(junction
-		(at 59.69 81.915)
+		(at 48.26 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a93aa5d-ecca-4bc2-b8b2-e399046bd7d7")
@@ -2952,7 +2742,7 @@
 		(uuid "5f1af258-c114-457a-a879-f625f402263f")
 	)
 	(junction
-		(at 59.69 102.235)
+		(at 48.26 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f30f663-ab03-4014-bcde-c5c60cb22597")
@@ -2970,55 +2760,37 @@
 		(uuid "6c6efb2c-19f6-4d0f-82fc-3a3f38efb008")
 	)
 	(junction
-		(at 93.98 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "709c1a18-110f-4c5c-9b56-026d61b029be")
-	)
-	(junction
-		(at 116.84 67.945)
+		(at 105.41 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78dbbdae-d54d-422e-8ac3-f445766bd967")
 	)
 	(junction
-		(at 83.82 81.915)
+		(at 72.39 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f95ae27-905e-4a88-bf6a-d2deb14f5285")
 	)
 	(junction
-		(at 93.98 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "853eff68-5c0e-4334-bdc1-edd73ed9844a")
-	)
-	(junction
-		(at 77.47 43.18)
-		(diameter 0.9144)
-		(color 0 0 0 0)
-		(uuid "8b215e84-8eb0-40a4-a791-3e602bf92412")
-	)
-	(junction
-		(at 121.92 181.61)
+		(at 54.61 120.015)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "931244b6-821c-4fe3-91de-5bd20200e827")
 	)
 	(junction
-		(at 69.85 78.105)
+		(at 58.42 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b5cff83-f116-417b-ac0b-d56a2681180b")
 	)
 	(junction
-		(at 121.92 184.15)
+		(at 54.61 122.555)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a17d9062-04f7-4442-bcb3-fbc882aac5f2")
 	)
 	(junction
-		(at 95.25 102.235)
+		(at 83.82 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a56be8ba-5436-4ea5-b8b2-0267847fef70")
@@ -3030,7 +2802,7 @@
 		(uuid "acbcb9bc-3931-42f7-bfe3-e7ee5aaaef26")
 	)
 	(junction
-		(at 121.92 171.45)
+		(at 54.61 109.855)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0abd11f-479f-41eb-878f-7d4a91b20c05")
@@ -3066,7 +2838,7 @@
 		(uuid "d2b181d7-9871-43c9-914a-6ed9f9e88a15")
 	)
 	(junction
-		(at 105.41 81.915)
+		(at 93.98 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddd02c0c-3b12-4b82-a2a8-50d1d18e00c2")
@@ -3078,32 +2850,52 @@
 		(uuid "ddfa5b15-4775-4e97-8993-5133bb7db5d1")
 	)
 	(junction
-		(at 53.34 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0d77d64-e69c-445c-9a06-ae068d425665")
-	)
-	(junction
 		(at 149.86 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec937f3a-0ae3-4636-9374-d291dab842d9")
 	)
 	(junction
-		(at 105.41 102.235)
+		(at 93.98 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef04ce34-5414-4b5c-887c-7d2718c4f811")
 	)
 	(junction
-		(at 83.82 102.235)
+		(at 72.39 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb267302-1c38-400b-938a-7c5f9609929c")
 	)
+	(junction
+		(at 55.245 71.755)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc8302f5-d61d-43b3-9939-05b3d83db08a")
+	)
+	(junction
+		(at 59.055 71.755)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff669b5d-1f97-4e1f-b8fb-def1b3de8e7b")
+	)
+	(no_connect
+		(at 177.8 96.52)
+		(uuid "f2d81ecb-46ea-4216-93c0-ffea3ed1056a")
+	)
 	(wire
 		(pts
-			(xy 59.69 102.235) (xy 69.85 102.235)
+			(xy 81.915 71.755) (xy 87.63 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05fa00d2-a859-4c94-9915-4556c67ea307")
+	)
+	(wire
+		(pts
+			(xy 48.26 193.04) (xy 58.42 193.04)
 		)
 		(stroke
 			(width 0)
@@ -3130,16 +2922,6 @@
 			(type default)
 		)
 		(uuid "086aa2b5-d239-4daa-9bdf-a75e06b0390b")
-	)
-	(wire
-		(pts
-			(xy 53.34 27.94) (xy 69.85 27.94)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "098b7ea9-accf-490d-ae2f-d346a3d9e0e6")
 	)
 	(wire
 		(pts
@@ -3173,7 +2955,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 67.945) (xy 69.85 70.485)
+			(xy 58.42 158.75) (xy 58.42 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3183,7 +2965,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 88.265) (xy 95.25 81.915)
+			(xy 83.82 179.07) (xy 83.82 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3203,17 +2985,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 35.56) (xy 77.47 43.18)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "161c5d3a-ebf4-4d0b-83ec-20f08c6136df")
-	)
-	(wire
-		(pts
-			(xy 121.92 181.61) (xy 127 181.61)
+			(xy 54.61 120.015) (xy 59.69 120.015)
 		)
 		(stroke
 			(width 0)
@@ -3293,6 +3065,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.245 78.105) (xy 55.245 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c5ae944-6d9d-4b21-94a6-fa2abe0735fb")
+	)
+	(wire
+		(pts
 			(xy 171.45 129.54) (xy 184.15 129.54)
 		)
 		(stroke
@@ -3353,7 +3135,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 67.945) (xy 116.84 69.215)
+			(xy 105.41 158.75) (xy 105.41 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3363,7 +3145,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 81.915) (xy 46.99 81.915)
+			(xy 31.75 172.72) (xy 35.56 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3373,7 +3155,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 99.695) (xy 59.69 102.235)
+			(xy 48.26 190.5) (xy 48.26 193.04)
 		)
 		(stroke
 			(width 0)
@@ -3390,26 +3172,6 @@
 			(type default)
 		)
 		(uuid "2ab92963-8c28-4fc3-88de-d20a46a66e3b")
-	)
-	(wire
-		(pts
-			(xy 182.88 96.52) (xy 184.15 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b895d8b-4f8a-498b-a7c6-3d340e6f637a")
-	)
-	(wire
-		(pts
-			(xy 158.75 91.44) (xy 157.48 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bbf5def-158a-42b7-b945-a536be7c87a4")
 	)
 	(wire
 		(pts
@@ -3433,7 +3195,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 43.18) (xy 115.57 43.18)
+			(xy 110.49 43.18) (xy 115.57 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3443,7 +3205,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 95.885) (xy 69.85 102.235)
+			(xy 58.42 186.69) (xy 58.42 193.04)
 		)
 		(stroke
 			(width 0)
@@ -3453,7 +3215,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 179.07) (xy 144.78 179.07)
+			(xy 90.17 117.475) (xy 77.47 117.475)
 		)
 		(stroke
 			(width 0)
@@ -3473,7 +3235,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 75.565) (xy 69.85 78.105)
+			(xy 58.42 166.37) (xy 58.42 168.91)
 		)
 		(stroke
 			(width 0)
@@ -3503,7 +3265,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 93.345) (xy 105.41 102.235)
+			(xy 93.98 184.15) (xy 93.98 193.04)
 		)
 		(stroke
 			(width 0)
@@ -3513,7 +3275,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 67.945) (xy 101.6 67.945)
+			(xy 58.42 158.75) (xy 90.17 158.75)
 		)
 		(stroke
 			(width 0)
@@ -3553,16 +3315,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 91.44) (xy 167.64 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b4ee86c-a9e9-4175-a774-250abb62bab6")
-	)
-	(wire
-		(pts
 			(xy 224.79 77.47) (xy 243.84 77.47)
 		)
 		(stroke
@@ -3583,7 +3335,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 75.565) (xy 118.11 75.565)
+			(xy 105.41 166.37) (xy 106.68 166.37)
 		)
 		(stroke
 			(width 0)
@@ -3593,7 +3345,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 171.45) (xy 144.78 171.45)
+			(xy 90.17 109.855) (xy 77.47 109.855)
 		)
 		(stroke
 			(width 0)
@@ -3620,26 +3372,6 @@
 			(type default)
 		)
 		(uuid "4afa02ad-dc0d-46ff-a445-2cd7d5359c3e")
-	)
-	(wire
-		(pts
-			(xy 85.09 27.94) (xy 93.98 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4afe4550-93aa-409f-a25c-e53200166be1")
-	)
-	(wire
-		(pts
-			(xy 156.21 93.98) (xy 157.48 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c175b50-67b1-45b5-a6e0-64d96fa7dcd5")
 	)
 	(wire
 		(pts
@@ -3693,7 +3425,17 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 93.345) (xy 83.82 102.235)
+			(xy 48.895 71.755) (xy 55.245 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56ed29b6-fe4f-490b-abed-1b4e6a0f292d")
+	)
+	(wire
+		(pts
+			(xy 72.39 184.15) (xy 72.39 193.04)
 		)
 		(stroke
 			(width 0)
@@ -3703,17 +3445,27 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 96.52) (xy 158.75 96.52)
+			(xy 55.245 72.39) (xy 55.245 71.755)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5aaa970c-d6ce-484e-8ebe-e238c92dda39")
+		(uuid "5962201d-ff6f-4334-a100-99a320b86945")
 	)
 	(wire
 		(pts
-			(xy 157.48 181.61) (xy 144.78 181.61)
+			(xy 92.71 71.755) (xy 107.315 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b7e6bb8-c279-417e-87c5-ade2bd673bde")
+	)
+	(wire
+		(pts
+			(xy 90.17 120.015) (xy 77.47 120.015)
 		)
 		(stroke
 			(width 0)
@@ -3723,7 +3475,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 67.945) (xy 69.85 67.945)
+			(xy 31.75 158.75) (xy 58.42 158.75)
 		)
 		(stroke
 			(width 0)
@@ -3753,7 +3505,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 102.235) (xy 105.41 102.235)
+			(xy 83.82 193.04) (xy 93.98 193.04)
 		)
 		(stroke
 			(width 0)
@@ -3783,7 +3535,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 184.15) (xy 121.92 184.15)
+			(xy 45.72 122.555) (xy 54.61 122.555)
 		)
 		(stroke
 			(width 0)
@@ -3793,7 +3545,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 81.915) (xy 78.74 81.915)
+			(xy 72.39 172.72) (xy 67.31 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3813,7 +3565,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 67.945) (xy 43.18 81.915)
+			(xy 31.75 158.75) (xy 31.75 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3863,7 +3615,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 179.07) (xy 121.92 181.61)
+			(xy 54.61 117.475) (xy 54.61 120.015)
 		)
 		(stroke
 			(width 0)
@@ -3883,7 +3635,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 90.805) (xy 59.69 94.615)
+			(xy 48.26 181.61) (xy 48.26 185.42)
 		)
 		(stroke
 			(width 0)
@@ -3923,7 +3675,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 102.235) (xy 95.25 102.235)
+			(xy 72.39 193.04) (xy 83.82 193.04)
 		)
 		(stroke
 			(width 0)
@@ -3943,7 +3695,17 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 80.645) (xy 105.41 81.915)
+			(xy 59.055 71.755) (xy 61.595 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81321c5f-fd50-4b3e-bd84-20056def5c7a")
+	)
+	(wire
+		(pts
+			(xy 93.98 171.45) (xy 93.98 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3953,7 +3715,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 81.915) (xy 109.22 81.915)
+			(xy 93.98 172.72) (xy 97.79 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3963,7 +3725,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 81.915) (xy 105.41 88.265)
+			(xy 93.98 172.72) (xy 93.98 179.07)
 		)
 		(stroke
 			(width 0)
@@ -3973,23 +3735,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 81.915) (xy 105.41 81.915)
+			(xy 83.82 172.72) (xy 93.98 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "827cce7b-3af8-4099-adc7-7ed2448e1f67")
-	)
-	(wire
-		(pts
-			(xy 157.48 93.98) (xy 157.48 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83aac20b-5f33-4e72-980c-44724c5e3e37")
 	)
 	(wire
 		(pts
@@ -4003,7 +3755,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 102.235) (xy 116.84 102.235)
+			(xy 93.98 193.04) (xy 105.41 193.04)
 		)
 		(stroke
 			(width 0)
@@ -4013,7 +3765,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 90.805) (xy 62.23 90.805)
+			(xy 48.26 181.61) (xy 50.8 181.61)
 		)
 		(stroke
 			(width 0)
@@ -4063,7 +3815,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 81.915) (xy 83.82 88.265)
+			(xy 72.39 172.72) (xy 72.39 179.07)
 		)
 		(stroke
 			(width 0)
@@ -4073,7 +3825,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 78.105) (xy 80.01 78.105)
+			(xy 58.42 168.91) (xy 68.58 168.91)
 		)
 		(stroke
 			(width 0)
@@ -4083,7 +3835,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 171.45) (xy 121.92 171.45)
+			(xy 45.72 109.855) (xy 54.61 109.855)
 		)
 		(stroke
 			(width 0)
@@ -4123,7 +3875,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 75.565) (xy 116.84 76.835)
+			(xy 105.41 166.37) (xy 105.41 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4183,7 +3935,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 184.15) (xy 121.92 184.15)
+			(xy 59.69 122.555) (xy 54.61 122.555)
 		)
 		(stroke
 			(width 0)
@@ -4203,6 +3955,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.055 71.755) (xy 59.055 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b59f348-a51b-43ce-a512-b63d2540d380")
+	)
+	(wire
+		(pts
 			(xy 224.79 95.25) (xy 243.84 95.25)
 		)
 		(stroke
@@ -4213,7 +3975,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 176.53) (xy 144.78 176.53)
+			(xy 90.17 114.935) (xy 77.47 114.935)
 		)
 		(stroke
 			(width 0)
@@ -4233,7 +3995,27 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 27.94) (xy 115.57 27.94)
+			(xy 81.915 76.835) (xy 88.265 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cfc3343-b1b0-4adc-bb77-0d33ca920f2b")
+	)
+	(wire
+		(pts
+			(xy 55.245 71.755) (xy 59.055 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9da369ab-9584-431a-afb5-4ad05d2e5ff8")
+	)
+	(wire
+		(pts
+			(xy 110.49 27.94) (xy 115.57 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4283,7 +4065,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 67.945) (xy 43.18 67.945)
+			(xy 20.32 158.75) (xy 31.75 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4303,23 +4085,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 173.99) (xy 144.78 173.99)
+			(xy 90.17 112.395) (xy 77.47 112.395)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a411d742-ed41-400c-916a-ace69e6458b5")
-	)
-	(wire
-		(pts
-			(xy 53.34 43.18) (xy 34.29 43.18)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "a565a946-cde3-4292-a8a2-455df6002f75")
 	)
 	(wire
 		(pts
@@ -4343,7 +4115,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 184.15) (xy 121.92 181.61)
+			(xy 54.61 122.555) (xy 54.61 120.015)
 		)
 		(stroke
 			(width 0)
@@ -4363,7 +4135,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 102.235) (xy 59.69 102.235)
+			(xy 25.4 193.04) (xy 48.26 193.04)
 		)
 		(stroke
 			(width 0)
@@ -4373,33 +4145,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 81.915) (xy 73.66 81.915)
+			(xy 57.15 172.72) (xy 62.23 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a9f8a705-b8dd-4f30-aebf-1adf3f3272cd")
-	)
-	(wire
-		(pts
-			(xy 53.34 27.94) (xy 53.34 33.02)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "ab786a00-387e-4d27-a7a8-ababcccf7d3c")
-	)
-	(wire
-		(pts
-			(xy 157.48 91.44) (xy 157.48 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac5baa46-65fa-4a5e-abe7-7b4cc3544f03")
 	)
 	(wire
 		(pts
@@ -4410,16 +4162,6 @@
 			(type default)
 		)
 		(uuid "ae7470b0-30cf-49c2-83c2-8faf6bdad3ee")
-	)
-	(wire
-		(pts
-			(xy 53.34 38.1) (xy 53.34 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afae0574-456f-472a-a464-890be6a29ee6")
 	)
 	(wire
 		(pts
@@ -4483,43 +4225,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 81.915) (xy 59.69 90.805)
+			(xy 48.26 172.72) (xy 48.26 181.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "baf22195-5480-4795-be80-8355772fd092")
-	)
-	(wire
-		(pts
-			(xy 171.45 93.98) (xy 170.18 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb5d273d-d0a8-4d1e-b340-984fad1d2466")
-	)
-	(wire
-		(pts
-			(xy 93.98 38.1) (xy 93.98 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbb4b0cf-6f0b-4d71-919e-224e6c3e93f4")
-	)
-	(wire
-		(pts
-			(xy 34.29 27.94) (xy 53.34 27.94)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "bc447e9b-fe95-4154-baa3-f8cd7fd5d32a")
 	)
 	(wire
 		(pts
@@ -4543,16 +4255,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 96.52) (xy 167.64 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c098aa4b-9823-4296-924f-06a4b41c6c3c")
-	)
-	(wire
-		(pts
 			(xy 224.79 128.27) (xy 243.84 128.27)
 		)
 		(stroke
@@ -4563,23 +4265,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 74.295) (xy 116.84 75.565)
+			(xy 105.41 165.1) (xy 105.41 166.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c1fc0d27-a3a3-4142-990d-93c742894df5")
-	)
-	(wire
-		(pts
-			(xy 77.47 43.18) (xy 93.98 43.18)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "c461c932-dbf4-49e9-9f06-0f4f23ad653d")
 	)
 	(wire
 		(pts
@@ -4603,7 +4295,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 67.945) (xy 129.54 67.945)
+			(xy 105.41 158.75) (xy 118.11 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4613,7 +4305,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 184.15) (xy 144.78 184.15)
+			(xy 90.17 122.555) (xy 77.47 122.555)
 		)
 		(stroke
 			(width 0)
@@ -4633,17 +4325,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 43.18) (xy 77.47 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c97f4d6d-7862-43c9-8bb9-12429f4ec11c")
-	)
-	(wire
-		(pts
-			(xy 83.82 81.915) (xy 95.25 81.915)
+			(xy 72.39 172.72) (xy 83.82 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4693,7 +4375,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 81.915) (xy 60.96 81.915)
+			(xy 48.26 172.72) (xy 49.53 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4733,7 +4415,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 171.45) (xy 121.92 171.45)
+			(xy 48.895 78.105) (xy 55.245 78.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea881db-3357-4252-9588-b14f56331d50")
+	)
+	(wire
+		(pts
+			(xy 59.69 109.855) (xy 54.61 109.855)
 		)
 		(stroke
 			(width 0)
@@ -4743,7 +4435,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 86.995) (xy 116.84 102.235)
+			(xy 105.41 177.8) (xy 105.41 193.04)
 		)
 		(stroke
 			(width 0)
@@ -4753,17 +4445,17 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 96.52) (xy 177.8 96.52)
+			(xy 61.595 76.835) (xy 59.055 76.835)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e570beed-0af6-440c-b9c6-68f1bcd048f0")
+		(uuid "e6ab3d93-949d-4b3c-96cf-629940e93cec")
 	)
 	(wire
 		(pts
-			(xy 69.85 102.235) (xy 83.82 102.235)
+			(xy 58.42 193.04) (xy 72.39 193.04)
 		)
 		(stroke
 			(width 0)
@@ -4803,17 +4495,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 33.02) (xy 93.98 27.94)
+			(xy 177.8 96.52) (xy 184.15 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f1789a64-c1db-420e-b19a-0e4a8812d8fb")
+		(uuid "f251a62c-ce92-4e60-b482-8e15d521051c")
 	)
 	(wire
 		(pts
-			(xy 69.85 78.105) (xy 69.85 85.725)
+			(xy 58.42 168.91) (xy 58.42 176.53)
 		)
 		(stroke
 			(width 0)
@@ -4823,7 +4515,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 171.45) (xy 121.92 173.99)
+			(xy 54.61 109.855) (xy 54.61 112.395)
 		)
 		(stroke
 			(width 0)
@@ -4833,17 +4525,17 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 93.98) (xy 165.1 93.98)
+			(xy 171.45 91.44) (xy 184.15 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f52d5f45-6ffb-4642-8602-6b21d2074a4f")
+		(uuid "f57861ce-3ac0-4d64-be6f-3aabd1e6e0b0")
 	)
 	(wire
 		(pts
-			(xy 95.25 93.345) (xy 95.25 102.235)
+			(xy 83.82 184.15) (xy 83.82 193.04)
 		)
 		(stroke
 			(width 0)
@@ -4883,7 +4575,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 81.915) (xy 59.69 81.915)
+			(xy 45.72 172.72) (xy 48.26 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4893,7 +4585,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 67.945) (xy 116.84 67.945)
+			(xy 95.25 158.75) (xy 105.41 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4901,19 +4593,9 @@
 		)
 		(uuid "fddf9fc9-86f6-4edb-b13c-48301ba8a247")
 	)
-	(wire
-		(pts
-			(xy 167.64 91.44) (xy 184.15 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff694ac0-be3b-454c-b706-b579453ee86a")
-	)
 	(text_box "1uF Caps Need to be places as close to their respective Power pins 44/45."
 		(exclude_from_sim no)
-		(at 170.815 100.33 0)
+		(at 140.97 96.52 0)
 		(size 15.24 10.16)
 		(stroke
 			(width 0)
@@ -4932,7 +4614,7 @@
 	)
 	(text "Q1B - pulls ~{CS} to GND"
 		(exclude_from_sim no)
-		(at 117.602 91.821 0)
+		(at 106.172 182.626 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4943,7 +4625,7 @@
 	)
 	(text "Removed inverter as\nwe don't care about \nbeing backwards \ncompatable."
 		(exclude_from_sim no)
-		(at 38.1 95.885 0)
+		(at 26.67 186.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4954,7 +4636,7 @@
 	)
 	(text "Reset / Boot Circuit"
 		(exclude_from_sim no)
-		(at 60.96 55.753 0)
+		(at 49.53 146.558 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4963,9 +4645,9 @@
 		)
 		(uuid "8f010e89-6d41-458a-852f-c5fa38b508a9")
 	)
-	(text "3V3 Reg"
+	(text "Crystal"
 		(exclude_from_sim no)
-		(at 76.708 18.542 0)
+		(at 69.85 60.325 0)
 		(effects
 			(font
 				(size 2 2)
@@ -4973,11 +4655,11 @@
 				(bold yes)
 			)
 		)
-		(uuid "992c2399-9d99-456c-8ee2-4a1a6f8e8139")
+		(uuid "aec49c9b-0ed8-432d-b060-1f4be9d1d14b")
 	)
-	(text "Tap for < 500ms to reset\nHold for > 500ms to enter UF2 bootloader"
+	(text "Tap for < 500ms to reset\nHold for > 500ms to enter UF2 bootloader\nTime Constant = 0.51s"
 		(exclude_from_sim no)
-		(at 60.96 60.833 0)
+		(at 49.53 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4988,7 +4670,7 @@
 	)
 	(text "Q1A - pulls ~{RST} to GND"
 		(exclude_from_sim no)
-		(at 58.42 106.045 0)
+		(at 46.99 196.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4999,7 +4681,7 @@
 	)
 	(text "SPI Flash"
 		(exclude_from_sim no)
-		(at 134.62 163.322 0)
+		(at 67.31 101.727 0)
 		(effects
 			(font
 				(size 2 2)
@@ -5011,7 +4693,7 @@
 	)
 	(text "RC delay"
 		(exclude_from_sim no)
-		(at 84.836 81.661 0)
+		(at 73.406 172.466 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5031,8 +4713,19 @@
 		)
 		(uuid "03dd7d4d-f3b9-4dec-9846-78169d057434")
 	)
+	(label "XTAL_IN"
+		(at 171.45 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "070deab9-1611-4805-bb41-17d178782b5a")
+	)
 	(label "QSPI_SD3"
-		(at 157.48 184.15 180)
+		(at 90.17 122.555 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5043,7 +4736,7 @@
 		(uuid "0dadbf7e-b894-4fc4-9aed-014fefa8f05a")
 	)
 	(label "QSPI_SCLK"
-		(at 157.48 173.99 180)
+		(at 90.17 112.395 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5065,7 +4758,7 @@
 		(uuid "209d688d-d7ce-4840-a859-afaa05bc8596")
 	)
 	(label "QSPI_SD2"
-		(at 157.48 181.61 180)
+		(at 90.17 120.015 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5076,7 +4769,7 @@
 		(uuid "2986b3d0-5d3a-44f5-a07c-39945849c00e")
 	)
 	(label "QSPI_~{CS}"
-		(at 157.48 171.45 180)
+		(at 90.17 109.855 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5085,17 +4778,6 @@
 			(justify right bottom)
 		)
 		(uuid "2f2616f4-0087-4f7f-ba1b-c98f358736fb")
-	)
-	(label "SWCLK"
-		(at 171.45 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "44189ec9-9ed6-4dfa-8765-c3f15120f0cd")
 	)
 	(label "QSPI_SD3"
 		(at 171.45 142.24 0)
@@ -5109,18 +4791,7 @@
 		(uuid "4aef7873-3ac2-4fe5-b242-913b7c3b4859")
 	)
 	(label "3V3"
-		(at 96.52 27.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "684f607d-ceff-4e80-8775-99bd4eb7abe7")
-	)
-	(label "3V3"
-		(at 113.03 171.45 0)
+		(at 45.72 109.855 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5142,7 +4813,7 @@
 		(uuid "738d664e-b5d5-4bd4-9a43-cf95decbfede")
 	)
 	(label "GND"
-		(at 113.03 184.15 0)
+		(at 45.72 122.555 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5164,7 +4835,7 @@
 		(uuid "8eb23253-1cd6-48e0-a9fe-5a1290e4b162")
 	)
 	(label "~{RST}"
-		(at 80.01 78.105 180)
+		(at 68.58 168.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5174,8 +4845,19 @@
 		)
 		(uuid "95fc3b81-4750-4332-8837-bac68d4cdb34")
 	)
-	(label "~{RST}"
-		(at 158.75 67.31 0)
+	(label "XTAL_IN"
+		(at 107.315 71.755 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "964ae132-5df5-4818-856c-758fed82fbf1")
+	)
+	(label "GND"
+		(at 48.895 78.105 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5183,7 +4865,18 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "a1d36bea-4152-4597-b6e2-141f60d2ff54")
+		(uuid "a5eb8111-cc4b-4e5f-83ee-5af1feb02b02")
+	)
+	(label "GND"
+		(at 88.265 76.835 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b9d10aec-c5ea-4649-854a-d1cd8793f58e")
 	)
 	(label "3V3"
 		(at 171.45 113.03 0)
@@ -5208,7 +4901,7 @@
 		(uuid "c1982095-6bc0-4d24-89a9-7a1343ad50ff")
 	)
 	(label "QSPI_~{CS}"
-		(at 129.54 67.945 180)
+		(at 118.11 158.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5230,7 +4923,7 @@
 		(uuid "d05feb43-60f2-463c-884f-aee7db571f18")
 	)
 	(label "QSPI_SD1"
-		(at 157.48 179.07 180)
+		(at 90.17 117.475 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5241,7 +4934,7 @@
 		(uuid "d4c81db1-7479-479e-9405-e888412985fd")
 	)
 	(label "QSPI_SD0"
-		(at 157.48 176.53 180)
+		(at 90.17 114.935 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5273,8 +4966,8 @@
 		)
 		(uuid "db6f1350-2d55-4c39-8148-64a6d2ea477f")
 	)
-	(label "SWDIO"
-		(at 171.45 124.46 0)
+	(label "3V3"
+		(at 48.895 71.755 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5282,7 +4975,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ecb45bac-c156-4cfe-a93e-1e70a00ba924")
+		(uuid "e5541a28-3ee0-475b-bbca-309df6786fd3")
 	)
 	(label "3V3"
 		(at 151.13 109.22 0)
@@ -5296,7 +4989,7 @@
 		(uuid "ef1991ef-45af-46d1-92b8-980fbce7fa4d")
 	)
 	(label "3V3"
-		(at 31.75 67.945 0)
+		(at 20.32 158.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5341,18 +5034,6 @@
 		)
 		(uuid "0f00b5ad-4a7f-4adb-bdcc-8f94d0687a8b")
 	)
-	(hierarchical_label "5V"
-		(shape input)
-		(at 34.29 27.94 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1410c7ba-6aa5-4b8b-963a-6d27b4b65773")
-	)
 	(hierarchical_label "GPIO15"
 		(shape bidirectional)
 		(at 243.84 105.41 0)
@@ -5364,18 +5045,6 @@
 			(justify left)
 		)
 		(uuid "1e62c0e5-7c4b-4b0f-b4d9-098cc4caaf4a")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 171.45 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "281fb3d1-0f60-41ff-94da-bb4e4130dcee")
 	)
 	(hierarchical_label "GPIO17"
 		(shape bidirectional)
@@ -5497,6 +5166,18 @@
 		)
 		(uuid "760ff1d5-365a-4c98-9dc0-8d0e2dc303d9")
 	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 110.49 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "76dc999d-eb51-48fc-b7d8-d9d8d3148f00")
+	)
 	(hierarchical_label "GPIO18"
 		(shape bidirectional)
 		(at 243.84 113.03 0)
@@ -5532,6 +5213,18 @@
 			(justify left)
 		)
 		(uuid "7bbb2366-1074-4ae2-b192-993d69eb23a4")
+	)
+	(hierarchical_label "SWCLK"
+		(shape input)
+		(at 171.45 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7c455ae2-48e4-42fa-93ea-ff6e9a0316cd")
 	)
 	(hierarchical_label "GPIO13"
 		(shape bidirectional)
@@ -5593,6 +5286,18 @@
 		)
 		(uuid "958efc69-3363-4827-93c8-577be6620301")
 	)
+	(hierarchical_label "SWDIO"
+		(shape input)
+		(at 171.45 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "975efd38-aba4-4dc5-b680-6424d575eaf8")
+	)
 	(hierarchical_label "GPIO25"
 		(shape bidirectional)
 		(at 243.84 130.81 0)
@@ -5607,7 +5312,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 36.83 102.235 180)
+		(at 25.4 193.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5665,18 +5370,6 @@
 		)
 		(uuid "b8189f56-cb14-4764-80ca-e248bba61341")
 	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 34.29 43.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d21a5352-1f12-4a7c-8541-7625e2ed0599")
-	)
 	(hierarchical_label "GPIO20"
 		(shape bidirectional)
 		(at 243.84 118.11 0)
@@ -5700,18 +5393,6 @@
 			(justify left)
 		)
 		(uuid "d9218d1f-5488-4239-bd55-0e4edc6c186b")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 156.21 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "df39522e-a50c-4785-ad00-9bbee21b5bd1")
 	)
 	(hierarchical_label "USB_D+"
 		(shape bidirectional)
@@ -5773,6 +5454,30 @@
 		)
 		(uuid "f54ce2ee-e1ab-42f2-9995-ae562b0e5894")
 	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 110.49 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f576db1b-ba87-4c3b-9687-d647fb6b5621")
+	)
+	(hierarchical_label "~{RST}"
+		(shape input)
+		(at 158.75 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f66f2477-3af7-4b8f-ab61-4a794fd01507")
+	)
 	(hierarchical_label "USB_D-"
 		(shape bidirectional)
 		(at 158.75 81.28 180)
@@ -5829,15 +5534,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 105.41 80.645 0)
+		(at 93.98 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "03c58153-29b1-48cd-a9e3-e5035b41d52e")
-		(property "Reference" "TP2"
-			(at 102.87 73.66 0)
+		(property "Reference" "TP?"
+			(at 91.44 164.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5846,7 +5551,7 @@
 			)
 		)
 		(property "Value" "Delay"
-			(at 102.87 75.565 0)
+			(at 91.44 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5855,7 +5560,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 110.49 80.645 0)
+			(at 99.06 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5864,7 +5569,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 80.645 0)
+			(at 99.06 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5873,7 +5578,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 80.645 0)
+			(at 93.98 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5887,12 +5592,12 @@
 		(instances
 			(project "RP2040"
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "TP2")
+					(reference "TP?")
 					(unit 1)
 				)
 			)
 			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "TP2")
 					(unit 1)
 				)
@@ -5936,7 +5641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
 			(at 149.86 35.56 0)
 			(effects
 				(font
@@ -5954,7 +5659,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C104K3RAC7867"
+		(property "MPN" "CC0402KPX7R9BB104"
 			(at 149.86 35.56 0)
 			(effects
 				(font
@@ -5963,7 +5668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "YAGEO"
 			(at 149.86 35.56 0)
 			(effects
 				(font
@@ -5972,7 +5677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.33 "
+		(property "Price" "$0.17"
 			(at 149.86 35.56 0)
 			(effects
 				(font
@@ -5981,7 +5686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "CAP CER 0.1UF 25V X7R 0402"
+		(property "Rating" "CAP 0402 50V 100 NF X7R"
 			(at 149.86 35.56 0)
 			(effects
 				(font
@@ -5999,7 +5704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "399-14148-1-ND"
+		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
 			(at 149.86 35.56 0)
 			(effects
 				(font
@@ -6022,8 +5727,8 @@
 				)
 			)
 			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
-					(reference "C12")
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -6032,7 +5737,7 @@
 	(symbol
 		(lib_name "FDG6335N_1")
 		(lib_id "Transistor_FET:FDG6335N")
-		(at 114.3 81.915 0)
+		(at 102.87 172.72 0)
 		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
@@ -6040,8 +5745,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c2c0934-af65-47d7-b15f-392b75011bb7")
-		(property "Reference" "Q1"
-			(at 117.602 85.979 0)
+		(property "Reference" "Q?"
+			(at 106.172 176.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6050,7 +5755,7 @@
 			)
 		)
 		(property "Value" "2N7002VC-7"
-			(at 117.602 88.519 0)
+			(at 106.172 179.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6059,7 +5764,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 119.38 80.01 0)
+			(at 107.95 170.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6070,7 +5775,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30639.pdf"
-			(at 119.38 78.105 0)
+			(at 107.95 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6080,7 +5785,7 @@
 			)
 		)
 		(property "Description" "Mosfet Array 60V 280mA 150mW Surface Mount SOT-563"
-			(at 114.3 81.915 0)
+			(at 102.87 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6089,7 +5794,7 @@
 			)
 		)
 		(property "Price" "$0.64 "
-			(at 114.3 81.915 0)
+			(at 102.87 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6098,7 +5803,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 114.3 81.915 0)
+			(at 102.87 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6107,7 +5812,7 @@
 			)
 		)
 		(property "Rating" "MOSFET 2N-CH 60V 0.28A SOT563"
-			(at 114.3 81.915 0)
+			(at 102.87 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6116,7 +5821,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 114.3 81.915 0)
+			(at 102.87 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6125,7 +5830,7 @@
 			)
 		)
 		(property "Supplier PN" "2N7002VC-7DICT-ND"
-			(at 114.3 81.915 0)
+			(at 102.87 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6134,7 +5839,7 @@
 			)
 		)
 		(property "Manufacturer" "Diodes Incorporated"
-			(at 114.3 81.915 0)
+			(at 102.87 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6143,7 +5848,7 @@
 			)
 		)
 		(property "MPN" "2N7002VC-7"
-			(at 114.3 81.915 0)
+			(at 102.87 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6172,12 +5877,12 @@
 		(instances
 			(project "RP2040"
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "Q1")
+					(reference "Q?")
 					(unit 2)
 				)
 			)
 			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "Q1")
 					(unit 2)
 				)
@@ -6186,15 +5891,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 69.85 73.025 180)
+		(at 58.42 163.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0ce50021-3b45-4672-b50b-aefabfe932a1")
-		(property "Reference" "R2"
-			(at 72.39 71.247 0)
+		(property "Reference" "R?"
+			(at 60.96 162.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6202,7 +5907,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 72.898 73.025 0)
+			(at 61.468 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6210,7 +5915,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 69.85 73.025 0)
+			(at 58.42 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6219,7 +5924,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 69.85 73.025 0)
+			(at 58.42 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6228,7 +5933,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 69.85 73.025 0)
+			(at 58.42 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6237,7 +5942,7 @@
 			)
 		)
 		(property "Price" "$0.16 "
-			(at 69.85 73.025 0)
+			(at 58.42 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6246,7 +5951,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 69.85 73.025 0)
+			(at 58.42 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6255,7 +5960,7 @@
 			)
 		)
 		(property "Rating" "RES 10K OHM 1% 1/16W 0402"
-			(at 69.85 73.025 0)
+			(at 58.42 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6264,7 +5969,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 69.85 73.025 0)
+			(at 58.42 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6273,7 +5978,7 @@
 			)
 		)
 		(property "Supplier PN" "311-10.0KLRCT-ND"
-			(at 69.85 73.025 0)
+			(at 58.42 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6282,7 +5987,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 69.85 73.025 0)
+			(at 58.42 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6291,7 +5996,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0710KL"
-			(at 69.85 73.025 0)
+			(at 58.42 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6300,7 +6005,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 69.85 73.025 0)
+			(at 58.42 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6317,13 +6022,13 @@
 		(instances
 			(project "RP2040"
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "R2")
+					(reference "R?")
 					(unit 1)
 				)
 			)
 			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
-					(reference "R2")
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -6625,7 +6330,7 @@
 				)
 			)
 			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "U5")
 					(unit 1)
 				)
@@ -6634,15 +6339,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 59.69 97.155 180)
+		(at 48.26 187.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0fd440fe-691d-4620-b951-f51594fc72c8")
-		(property "Reference" "R1"
-			(at 60.96 94.615 0)
+		(property "Reference" "R?"
+			(at 49.53 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6651,7 +6356,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 60.96 97.155 0)
+			(at 49.53 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6660,7 +6365,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 59.69 97.155 0)
+			(at 48.26 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6669,7 +6374,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 59.69 97.155 0)
+			(at 48.26 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6678,7 +6383,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 59.69 97.155 0)
+			(at 48.26 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6687,7 +6392,7 @@
 			)
 		)
 		(property "Price" "$0.16 "
-			(at 59.69 97.155 0)
+			(at 48.26 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6696,7 +6401,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 59.69 97.155 0)
+			(at 48.26 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6705,7 +6410,7 @@
 			)
 		)
 		(property "Rating" "RES 10K OHM 1% 1/16W 0402"
-			(at 59.69 97.155 0)
+			(at 48.26 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6714,7 +6419,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 59.69 97.155 0)
+			(at 48.26 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6723,7 +6428,7 @@
 			)
 		)
 		(property "Supplier PN" "311-10.0KLRCT-ND"
-			(at 59.69 97.155 0)
+			(at 48.26 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6732,7 +6437,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 59.69 97.155 0)
+			(at 48.26 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6741,7 +6446,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0710KL"
-			(at 59.69 97.155 0)
+			(at 48.26 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6750,7 +6455,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 59.69 97.155 0)
+			(at 48.26 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6767,13 +6472,13 @@
 		(instances
 			(project "RP2040"
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "R1")
+					(reference "R?")
 					(unit 1)
 				)
 			)
 			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
-					(reference "R1")
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6781,276 +6486,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 53.34 35.56 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "16bfb9ce-9e9d-4f02-af18-1924aedab8a9")
-		(property "Reference" "C4"
-			(at 55.88 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF"
-			(at 55.88 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 53.34 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1006_X5R_SMD-3316465.pdf"
-			(at 53.34 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X5R 0805 (2012 Metric)"
-			(at 53.34 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0805C106K3PAC7800"
-			(at 53.34 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 53.34 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.43"
-			(at 53.34 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "CAP CER 10UF 25V X5R 0805"
-			(at 53.34 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 53.34 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "399-11939-1-ND"
-			(at 53.34 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ca9d7b0-9f4b-400e-9eb1-e6e57c457743")
-		)
-		(pin "2"
-			(uuid "877ea12c-777d-4319-a180-d892f26f4953")
-		)
-		(instances
-			(project "RP2040"
-				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 93.98 35.56 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2528ff7d-276b-468c-a841-332afa981cee")
-		(property "Reference" "C?"
-			(at 96.52 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF"
-			(at 96.52 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 93.98 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1006_X5R_SMD-3316465.pdf"
-			(at 93.98 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X5R 0805 (2012 Metric)"
-			(at 93.98 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0805C106K3PAC7800"
-			(at 93.98 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 93.98 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.43"
-			(at 93.98 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "CAP CER 10UF 25V X5R 0805"
-			(at 93.98 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 93.98 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "399-11939-1-ND"
-			(at 93.98 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 93.98 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0df071ca-503c-47a8-aa48-54406ff64e04")
-		)
-		(pin "2"
-			(uuid "9d07702f-9b61-4c52-8cec-994ed5615f6c")
-		)
-		(instances
-			(project "RP2040"
-				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 105.41 90.805 0)
+		(at 93.98 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7058,8 +6494,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25d78187-ff7b-4235-b278-e1dc2127491f")
-		(property "Reference" "C2"
-			(at 107.95 89.5412 0)
+		(property "Reference" "C?"
+			(at 96.52 180.3462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7068,7 +6504,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 107.95 92.0812 0)
+			(at 96.52 182.8862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7077,7 +6513,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 105.41 90.805 0)
+			(at 93.98 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7085,8 +6521,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1006_X5R_SMD-3316465.pdf"
-			(at 105.41 90.805 0)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-gphc_x5r_4v-to-50v.pdf"
+			(at 93.98 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7095,7 +6531,7 @@
 			)
 		)
 		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X5R 0805 (2012 Metric)"
-			(at 105.41 90.805 0)
+			(at 93.98 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7103,8 +6539,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.43"
-			(at 105.41 90.805 0)
+		(property "Price" "$0.47"
+			(at 93.98 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7113,7 +6549,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 105.41 90.805 0)
+			(at 93.98 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7122,7 +6558,7 @@
 			)
 		)
 		(property "Rating" "CAP CER 10UF 25V X5R 0805"
-			(at 105.41 90.805 0)
+			(at 93.98 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7131,7 +6567,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 105.41 90.805 0)
+			(at 93.98 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7139,8 +6575,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "399-11939-1-ND"
-			(at 105.41 90.805 0)
+		(property "Supplier PN" "311-1869-1-ND"
+			(at 93.98 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7148,8 +6584,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
-			(at 105.41 90.805 0)
+		(property "Manufacturer" "YAGEO"
+			(at 93.98 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7157,8 +6593,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0805C106K3PAC7800"
-			(at 105.41 90.805 0)
+		(property "MPN" "CC0805KKX5R8BB106"
+			(at 93.98 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7175,13 +6611,13 @@
 		(instances
 			(project "RP2040"
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "C2")
+					(reference "C?")
 					(unit 1)
 				)
 			)
 			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
-					(reference "C2")
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -7224,7 +6660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
 			(at 115.57 35.56 0)
 			(effects
 				(font
@@ -7242,7 +6678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.33 "
+		(property "Price" "$0.17"
 			(at 115.57 35.56 0)
 			(effects
 				(font
@@ -7260,7 +6696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "CAP CER 0.1UF 25V X7R 0402"
+		(property "Rating" "CAP 0402 50V 100 NF X7R"
 			(at 115.57 35.56 0)
 			(effects
 				(font
@@ -7278,7 +6714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "399-14148-1-ND"
+		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
 			(at 115.57 35.56 0)
 			(effects
 				(font
@@ -7287,7 +6723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "YAGEO"
 			(at 115.57 35.56 0)
 			(effects
 				(font
@@ -7296,7 +6732,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C104K3RAC7867"
+		(property "MPN" "CC0402KPX7R9BB104"
 			(at 115.57 35.56 0)
 			(effects
 				(font
@@ -7319,8 +6755,145 @@
 				)
 			)
 			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
-					(reference "C8")
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mad_Symbols:ECS-2520MV-xxx-xx")
+		(at 71.755 74.295 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48a6864c-0dc5-414a-9c1a-675655498d59")
+		(property "Reference" "X1"
+			(at 71.755 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ECS-2520MVLC-120-CN"
+			(at 71.755 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mad_Footprints:Crystal_SMD_ECX-32-4Pin_3.2x2.5mm"
+			(at 74.168 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf"
+			(at 58.293 72.517 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12 MHz XO (Standard) CMOS Oscillator 1.6V ~ 3.6V Enable/Disable 4-SMD, No Lead"
+			(at 62.738 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$1.99"
+			(at 71.755 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 71.755 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "XTAL OSC XO 12.0000MHZ CMOS SMD"
+			(at 71.755 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 71.755 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "50-ECS-2520MVLC-120-CN-TRCT-ND"
+			(at 71.755 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ECS Inc."
+			(at 71.755 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ECS-2520MVLC-120-CN-TR"
+			(at 71.755 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c701544a-8abf-4b65-8f8c-2b7a277eea23")
+		)
+		(pin "1"
+			(uuid "9db32c1d-188d-4d90-a9fb-92019258e364")
+		)
+		(pin "4"
+			(uuid "39007c06-cc36-4223-9fbf-f18dc667f20f")
+		)
+		(pin "2"
+			(uuid "a6fdfd11-24a4-411a-963a-c588d77407fc")
+		)
+		(instances
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "X1")
 					(unit 1)
 				)
 			)
@@ -7336,7 +6909,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50144092-5f0d-4143-b417-f586810eb02b")
-		(property "Reference" "C22"
+		(property "Reference" "C?"
 			(at 147.32 111.125 0)
 			(effects
 				(font
@@ -7453,152 +7026,13 @@
 		(instances
 			(project "RP2040"
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "C22")
+					(reference "C?")
 					(unit 1)
 				)
 			)
 			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 95.25 90.805 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "543fd07d-34e0-4f70-8507-4f212f92b01b")
-		(property "Reference" "C1"
-			(at 97.79 89.5412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 97.79 92.0812 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 95.25 90.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1006_X5R_SMD-3316465.pdf"
-			(at 95.25 90.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X5R 0805 (2012 Metric)"
-			(at 95.25 90.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.43"
-			(at 95.25 90.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 95.25 90.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "CAP CER 10UF 25V X5R 0805"
-			(at 95.25 90.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 95.25 90.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "399-11939-1-ND"
-			(at 95.25 90.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 95.25 90.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0805C106K3PAC7800"
-			(at 95.25 90.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "26673925-2d15-4104-a7cb-f0cc6f7d9f48")
-		)
-		(pin "1"
-			(uuid "1a9c4532-f2e6-4fa3-98ae-5880206503a3")
-		)
-		(instances
-			(project "RP2040"
-				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
-					(reference "C1")
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -7641,7 +7075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
 			(at 127 35.56 0)
 			(effects
 				(font
@@ -7659,7 +7093,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C104K3RAC7867"
+		(property "MPN" "CC0402KPX7R9BB104"
 			(at 127 35.56 0)
 			(effects
 				(font
@@ -7668,7 +7102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "YAGEO"
 			(at 127 35.56 0)
 			(effects
 				(font
@@ -7677,7 +7111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.33 "
+		(property "Price" "$0.17"
 			(at 127 35.56 0)
 			(effects
 				(font
@@ -7686,7 +7120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "CAP CER 0.1UF 25V X7R 0402"
+		(property "Rating" "CAP 0402 50V 100 NF X7R"
 			(at 127 35.56 0)
 			(effects
 				(font
@@ -7704,7 +7138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "399-14148-1-ND"
+		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
 			(at 127 35.56 0)
 			(effects
 				(font
@@ -7727,8 +7161,8 @@
 				)
 			)
 			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
-					(reference "C9")
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -7736,7 +7170,7 @@
 	)
 	(symbol
 		(lib_id "Mad_Symbols:W25Q128JVSIQ")
-		(at 132.08 176.53 0)
+		(at 64.77 114.935 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7744,8 +7178,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5db02aa0-590f-46d3-b7c1-5f9110f8e3b9")
-		(property "Reference" "U4"
-			(at 130.175 165.735 0)
+		(property "Reference" "U?"
+			(at 62.865 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7753,7 +7187,7 @@
 			)
 		)
 		(property "Value" "GD25Q127CWIGR"
-			(at 135.89 167.64 0)
+			(at 68.58 106.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7761,7 +7195,7 @@
 			)
 		)
 		(property "Footprint" "Mad_Footprints:GD25LQ128DYIGR"
-			(at 132.08 176.53 0)
+			(at 64.77 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7770,7 +7204,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.gigadevice.com.cn/Public/Uploads/uploadfile/files/20220714/DS-00291-GD25LQ128D-Rev1.9.pdf"
-			(at 132.08 176.53 0)
+			(at 64.77 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7779,7 +7213,7 @@
 			)
 		)
 		(property "Description" "FLASH - NOR Memory IC 128Mbit SPI - Quad I/O 104 MHz 8-WSON (5x6)"
-			(at 132.08 176.53 0)
+			(at 64.77 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7788,7 +7222,7 @@
 			)
 		)
 		(property "Manufacturer" "GigaDevice Semiconductor (HK) Limited"
-			(at 132.08 176.53 0)
+			(at 64.77 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7797,7 +7231,7 @@
 			)
 		)
 		(property "Price" "$3.48 "
-			(at 132.08 176.53 0)
+			(at 64.77 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7806,7 +7240,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 132.08 176.53 0)
+			(at 64.77 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7815,7 +7249,7 @@
 			)
 		)
 		(property "Rating" "IC FLASH 128MBIT SPI/QUAD 8WSON"
-			(at 132.08 176.53 0)
+			(at 64.77 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7824,7 +7258,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 132.08 176.53 0)
+			(at 64.77 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7833,7 +7267,7 @@
 			)
 		)
 		(property "Supplier PN" "1970-1048-1-ND"
-			(at 132.08 176.53 0)
+			(at 64.77 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7842,7 +7276,7 @@
 			)
 		)
 		(property "MPN" "GD25Q127CWIGR"
-			(at 132.08 176.53 0)
+			(at 64.77 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7880,12 +7314,12 @@
 		(instances
 			(project "RP2040"
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "U4")
+					(reference "U?")
 					(unit 1)
 				)
 			)
 			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "U4")
 					(unit 1)
 				)
@@ -7894,15 +7328,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 118.11 75.565 270)
+		(at 106.68 166.37 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5eb91285-056b-420b-bf4d-f18d2877967b")
-		(property "Reference" "TP3"
-			(at 122.555 74.295 90)
+		(property "Reference" "TP?"
+			(at 111.125 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7911,7 +7345,7 @@
 			)
 		)
 		(property "Value" "Boot"
-			(at 122.555 76.835 90)
+			(at 111.125 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7920,7 +7354,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 118.11 80.645 0)
+			(at 106.68 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7929,7 +7363,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 80.645 0)
+			(at 106.68 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7938,7 +7372,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 75.565 0)
+			(at 106.68 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7952,12 +7386,12 @@
 		(instances
 			(project "RP2040"
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "TP3")
+					(reference "TP?")
 					(unit 1)
 				)
 			)
 			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "TP3")
 					(unit 1)
 				)
@@ -7966,7 +7400,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 121.92 176.53 0)
+		(at 54.61 114.935 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7974,8 +7408,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5fa27eae-cce5-4ed4-9b78-0c7937e606d4")
-		(property "Reference" "C10"
-			(at 120.65 173.9899 0)
+		(property "Reference" "C?"
+			(at 53.34 112.3949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7984,7 +7418,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 120.65 179.0699 0)
+			(at 53.34 117.4749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7993,7 +7427,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 121.92 176.53 0)
+			(at 54.61 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8001,8 +7435,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
-			(at 121.92 176.53 0)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+			(at 54.61 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8011,7 +7445,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 121.92 176.53 0)
+			(at 54.61 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8019,8 +7453,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C104K3RAC7867"
-			(at 121.92 176.53 0)
+		(property "MPN" "CC0402KPX7R9BB104"
+			(at 54.61 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8028,8 +7462,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
-			(at 121.92 176.53 0)
+		(property "Manufacturer" "YAGEO"
+			(at 54.61 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8037,8 +7471,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.33 "
-			(at 121.92 176.53 0)
+		(property "Price" "$0.17"
+			(at 54.61 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8046,8 +7480,8 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "CAP CER 0.1UF 25V X7R 0402"
-			(at 121.92 176.53 0)
+		(property "Rating" "CAP 0402 50V 100 NF X7R"
+			(at 54.61 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8056,7 +7490,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 121.92 176.53 0)
+			(at 54.61 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8064,8 +7498,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "399-14148-1-ND"
-			(at 121.92 176.53 0)
+		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
+			(at 54.61 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8082,13 +7516,13 @@
 		(instances
 			(project "RP2040"
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "C10")
+					(reference "C?")
 					(unit 1)
 				)
 			)
 			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
-					(reference "C10")
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -8096,15 +7530,15 @@
 	)
 	(symbol
 		(lib_id "PCM_Diode_Schottky_AKL:RB520S30")
-		(at 64.77 81.915 0)
+		(at 53.34 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "64591375-bf5e-4e2e-b881-79a04e2f6274")
-		(property "Reference" "D1"
-			(at 63.246 76.073 0)
+		(property "Reference" "D?"
+			(at 51.816 166.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8112,7 +7546,7 @@
 			)
 		)
 		(property "Value" "RB520S30"
-			(at 63.246 78.613 0)
+			(at 51.816 169.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8120,7 +7554,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 64.77 81.915 0)
+			(at 53.34 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8129,7 +7563,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/rb520s30t1-d.pdf"
-			(at 64.77 81.915 0)
+			(at 53.34 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8138,7 +7572,7 @@
 			)
 		)
 		(property "Description" "Diode 30 V 200mA Surface Mount SOD-523"
-			(at 64.77 81.915 0)
+			(at 53.34 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8147,7 +7581,7 @@
 			)
 		)
 		(property "Price" "$0.21 "
-			(at 64.77 81.915 0)
+			(at 53.34 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8156,7 +7590,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 64.77 81.915 0)
+			(at 53.34 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8165,7 +7599,7 @@
 			)
 		)
 		(property "Rating" "DIODE SCHOTTKY 30V 200MA SOD523"
-			(at 64.77 81.915 0)
+			(at 53.34 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8174,7 +7608,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 64.77 81.915 0)
+			(at 53.34 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8183,7 +7617,7 @@
 			)
 		)
 		(property "Supplier PN" "RB520S30T5GOSCT-ND"
-			(at 64.77 81.915 0)
+			(at 53.34 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8192,7 +7626,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 64.77 81.915 0)
+			(at 53.34 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8201,7 +7635,7 @@
 			)
 		)
 		(property "MPN" "RB520S30T5G"
-			(at 64.77 81.915 0)
+			(at 53.34 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8218,13 +7652,13 @@
 		(instances
 			(project "RP2040"
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "D1")
+					(reference "D?")
 					(unit 1)
 				)
 			)
 			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
-					(reference "D1")
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -8267,7 +7701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
 			(at 161.29 35.56 0)
 			(effects
 				(font
@@ -8285,7 +7719,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C104K3RAC7867"
+		(property "MPN" "CC0402KPX7R9BB104"
 			(at 161.29 35.56 0)
 			(effects
 				(font
@@ -8294,7 +7728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "YAGEO"
 			(at 161.29 35.56 0)
 			(effects
 				(font
@@ -8303,7 +7737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.33 "
+		(property "Price" "$0.17"
 			(at 161.29 35.56 0)
 			(effects
 				(font
@@ -8312,7 +7746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "CAP CER 0.1UF 25V X7R 0402"
+		(property "Rating" "CAP 0402 50V 100 NF X7R"
 			(at 161.29 35.56 0)
 			(effects
 				(font
@@ -8330,7 +7764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "399-14148-1-ND"
+		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
 			(at 161.29 35.56 0)
 			(effects
 				(font
@@ -8353,8 +7787,8 @@
 				)
 			)
 			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
-					(reference "C13")
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -8363,15 +7797,15 @@
 	(symbol
 		(lib_name "FDG6335N_1")
 		(lib_id "Transistor_FET:FDG6335N")
-		(at 67.31 90.805 0)
+		(at 55.88 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6aad3bed-8dbb-4fb1-8272-54d4b2f297d0")
-		(property "Reference" "Q1"
-			(at 70.358 95.377 0)
+		(property "Reference" "Q?"
+			(at 58.928 186.182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8380,7 +7814,7 @@
 			)
 		)
 		(property "Value" "2N7002VC-7"
-			(at 70.358 97.917 0)
+			(at 58.928 188.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8389,7 +7823,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 72.39 92.71 0)
+			(at 60.96 183.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8400,7 +7834,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30639.pdf"
-			(at 72.39 94.615 0)
+			(at 60.96 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8410,7 +7844,7 @@
 			)
 		)
 		(property "Description" "Mosfet Array 60V 280mA 150mW Surface Mount SOT-563"
-			(at 67.31 90.805 0)
+			(at 55.88 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8419,7 +7853,7 @@
 			)
 		)
 		(property "MPN" "2N7002VC-7"
-			(at 67.31 90.805 0)
+			(at 55.88 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8428,7 +7862,7 @@
 			)
 		)
 		(property "Manufacturer" "Diodes Incorporated"
-			(at 67.31 90.805 0)
+			(at 55.88 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8437,7 +7871,7 @@
 			)
 		)
 		(property "Price" "$0.64 "
-			(at 67.31 90.805 0)
+			(at 55.88 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8446,7 +7880,7 @@
 			)
 		)
 		(property "Rating" "MOSFET 2N-CH 60V 0.28A SOT563"
-			(at 67.31 90.805 0)
+			(at 55.88 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8455,7 +7889,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 67.31 90.805 0)
+			(at 55.88 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8464,7 +7898,7 @@
 			)
 		)
 		(property "Supplier PN" "2N7002VC-7DICT-ND"
-			(at 67.31 90.805 0)
+			(at 55.88 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8493,12 +7927,12 @@
 		(instances
 			(project "RP2040"
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "Q1")
+					(reference "Q?")
 					(unit 1)
 				)
 			)
 			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "Q1")
 					(unit 1)
 				)
@@ -8507,15 +7941,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 83.82 90.805 180)
+		(at 72.39 181.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "77c32527-4086-475c-9716-cde1a04d8afa")
-		(property "Reference" "R4"
-			(at 85.09 88.265 0)
+		(property "Reference" "R?"
+			(at 73.66 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8524,7 +7958,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 85.09 90.805 0)
+			(at 73.66 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8533,7 +7967,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 83.82 90.805 0)
+			(at 72.39 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8542,7 +7976,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 83.82 90.805 0)
+			(at 72.39 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8551,7 +7985,7 @@
 			)
 		)
 		(property "Description" "100 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 83.82 90.805 0)
+			(at 72.39 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8560,7 +7994,7 @@
 			)
 		)
 		(property "Price" "$0.16 "
-			(at 83.82 90.805 0)
+			(at 72.39 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8569,7 +8003,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 83.82 90.805 0)
+			(at 72.39 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8578,7 +8012,7 @@
 			)
 		)
 		(property "Rating" "RES 100K OHM 1% 1/16W 0402"
-			(at 83.82 90.805 0)
+			(at 72.39 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8587,7 +8021,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 83.82 90.805 0)
+			(at 72.39 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8596,7 +8030,7 @@
 			)
 		)
 		(property "Supplier PN" "311-100KLRCT-ND"
-			(at 83.82 90.805 0)
+			(at 72.39 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8605,7 +8039,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 83.82 90.805 0)
+			(at 72.39 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8614,7 +8048,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-07100KL"
-			(at 83.82 90.805 0)
+			(at 72.39 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8623,7 +8057,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 83.82 90.805 0)
+			(at 72.39 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8640,13 +8074,146 @@
 		(instances
 			(project "RP2040"
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "R4")
+					(reference "R?")
 					(unit 1)
 				)
 			)
 			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
-					(reference "R4")
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.245 74.93 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77f2f73b-b701-48f4-a758-ed4f460053c7")
+		(property "Reference" "C13"
+			(at 57.785 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 57.785 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 55.245 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+			(at 55.245 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 55.245 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.17"
+			(at 55.245 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 55.245 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "CAP 0402 50V 100 NF X7R"
+			(at 55.245 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 55.245 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
+			(at 55.245 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 55.245 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402KPX7R9BB104"
+			(at 55.245 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4638a718-623c-4114-9710-1f429eaf46b3")
+		)
+		(pin "2"
+			(uuid "3f255d4a-bb75-4e7b-b5da-944ec95b76de")
+		)
+		(instances
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -8689,7 +8256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
 			(at 172.72 35.56 0)
 			(effects
 				(font
@@ -8707,7 +8274,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C104K3RAC7867"
+		(property "MPN" "CC0402KPX7R9BB104"
 			(at 172.72 35.56 0)
 			(effects
 				(font
@@ -8716,7 +8283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "YAGEO"
 			(at 172.72 35.56 0)
 			(effects
 				(font
@@ -8725,7 +8292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.33 "
+		(property "Price" "$0.17"
 			(at 172.72 35.56 0)
 			(effects
 				(font
@@ -8734,7 +8301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "CAP CER 0.1UF 25V X7R 0402"
+		(property "Rating" "CAP 0402 50V 100 NF X7R"
 			(at 172.72 35.56 0)
 			(effects
 				(font
@@ -8752,7 +8319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "399-14148-1-ND"
+		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
 			(at 172.72 35.56 0)
 			(effects
 				(font
@@ -8775,279 +8342,8 @@
 				)
 			)
 			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 161.29 91.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7b55d7f7-39aa-44a7-b3c1-de64f20c55bc")
-		(property "Reference" "C?"
-			(at 161.29 86.614 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22pF"
-			(at 161.29 88.392 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 161.29 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0402C220J4GACTU"
-			(at 161.29 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "22 pF ±5% 16V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
-			(at 161.29 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0402C220J4GAC7867"
-			(at 161.29 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 161.29 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.16"
-			(at 161.29 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "CAP CER 22PF 16V C0G/NP0 0402"
-			(at 161.29 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 161.29 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "399-C0402C220J4GAC7867CT-ND"
-			(at 161.29 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "116c1527-8700-4bc3-95d5-22e9f829f52e")
-		)
-		(pin "2"
-			(uuid "9853623b-9f38-4e63-9002-d1816a067e50")
-		)
-		(instances
-			(project "RP2040"
-				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Crystal_GND24_Small")
-		(at 167.64 93.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7d30a39b-3aea-4268-8f24-77f56353f59c")
-		(property "Reference" "Y?"
-			(at 168.91 88.138 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "12MHz"
-			(at 164.338 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm"
-			(at 167.64 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://abracon.com/Resonators/abm8.pdf"
-			(at 167.64 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "12 MHz ±10ppm Crystal 12pF 120 Ohms 4-SMD, No Lead"
-			(at 167.64 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.67 "
-			(at 167.64 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 167.64 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "CRYSTAL 12.0000MHZ 12PF SMD"
-			(at 167.64 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 167.64 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "535-14962-1-ND"
-			(at 167.64 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Abracon LLC"
-			(at 167.64 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ABM8-12.000MHZ-12-B1U-T"
-			(at 167.64 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db6b2359-c9b6-4ab3-bb23-f7e1519ddd23")
-		)
-		(pin "2"
-			(uuid "a39a2a70-e5c1-4c65-8870-2898fd6d400e")
-		)
-		(pin "3"
-			(uuid "7a3b63fd-6f80-4661-861f-28c654340fc1")
-		)
-		(pin "4"
-			(uuid "28d389fa-314c-4d9b-92d6-4abfc46a89d6")
-		)
-		(instances
-			(project "RP2040"
-				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "Y?")
-					(unit 1)
-				)
-			)
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
-					(reference "Y1")
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -9090,7 +8386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
 			(at 138.43 35.56 0)
 			(effects
 				(font
@@ -9108,7 +8404,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C104K3RAC7867"
+		(property "MPN" "CC0402KPX7R9BB104"
 			(at 138.43 35.56 0)
 			(effects
 				(font
@@ -9117,7 +8413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "YAGEO"
 			(at 138.43 35.56 0)
 			(effects
 				(font
@@ -9126,7 +8422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.33 "
+		(property "Price" "$0.17"
 			(at 138.43 35.56 0)
 			(effects
 				(font
@@ -9135,7 +8431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "CAP CER 0.1UF 25V X7R 0402"
+		(property "Rating" "CAP 0402 50V 100 NF X7R"
 			(at 138.43 35.56 0)
 			(effects
 				(font
@@ -9153,7 +8449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "399-14148-1-ND"
+		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
 			(at 138.43 35.56 0)
 			(effects
 				(font
@@ -9176,8 +8472,8 @@
 				)
 			)
 			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
-					(reference "C11")
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -9193,7 +8489,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "847ba053-a459-4272-ade8-7e874af2ef9c")
-		(property "Reference" "C23"
+		(property "Reference" "C?"
 			(at 159.385 111.125 0)
 			(effects
 				(font
@@ -9310,13 +8606,13 @@
 		(instances
 			(project "RP2040"
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "C23")
+					(reference "C?")
 					(unit 1)
 				)
 			)
 			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
-					(reference "C23")
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -9324,15 +8620,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 80.01 78.105 270)
+		(at 68.58 168.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8edc95a3-b021-4c54-8469-bcdd6bc0fc20")
-		(property "Reference" "TP1"
-			(at 81.534 76.327 90)
+		(property "Reference" "TP?"
+			(at 70.104 167.132 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9341,7 +8637,7 @@
 			)
 		)
 		(property "Value" "Reset"
-			(at 80.518 74.295 90)
+			(at 69.088 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9350,7 +8646,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 80.01 83.185 0)
+			(at 68.58 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9359,7 +8655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 83.185 0)
+			(at 68.58 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9368,7 +8664,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 78.105 0)
+			(at 68.58 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9377,7 +8673,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 80.01 78.105 0)
+			(at 68.58 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9386,7 +8682,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 80.01 78.105 0)
+			(at 68.58 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9395,7 +8691,7 @@
 			)
 		)
 		(property "Rating" ""
-			(at 80.01 78.105 0)
+			(at 68.58 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9404,7 +8700,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 80.01 78.105 0)
+			(at 68.58 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9413,7 +8709,7 @@
 			)
 		)
 		(property "Supplier PN" ""
-			(at 80.01 78.105 0)
+			(at 68.58 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9422,7 +8718,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 80.01 78.105 0)
+			(at 68.58 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9431,7 +8727,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 80.01 78.105 0)
+			(at 68.58 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9445,12 +8741,12 @@
 		(instances
 			(project "RP2040"
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "TP1")
+					(reference "TP?")
 					(unit 1)
 				)
 			)
 			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "TP1")
 					(unit 1)
 				)
@@ -9459,15 +8755,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 116.84 71.755 180)
+		(at 105.41 162.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "8f8558ec-1553-479a-a35d-52bcc956912c")
-		(property "Reference" "R6"
-			(at 118.11 69.723 0)
+		(property "Reference" "R?"
+			(at 106.68 160.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9476,7 +8772,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 118.11 71.755 0)
+			(at 106.68 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9485,7 +8781,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 116.84 71.755 0)
+			(at 105.41 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9494,7 +8790,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 116.84 71.755 0)
+			(at 105.41 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9503,7 +8799,7 @@
 			)
 		)
 		(property "Description" "1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 116.84 71.755 0)
+			(at 105.41 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9512,7 +8808,7 @@
 			)
 		)
 		(property "Price" "$0.16 "
-			(at 116.84 71.755 0)
+			(at 105.41 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9521,7 +8817,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 116.84 71.755 0)
+			(at 105.41 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9530,7 +8826,7 @@
 			)
 		)
 		(property "Rating" "RES 1K OHM 1% 1/16W 0402"
-			(at 116.84 71.755 0)
+			(at 105.41 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9539,7 +8835,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 116.84 71.755 0)
+			(at 105.41 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9548,7 +8844,7 @@
 			)
 		)
 		(property "Supplier PN" "311-1.00KLRCT-ND"
-			(at 116.84 71.755 0)
+			(at 105.41 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9557,7 +8853,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 116.84 71.755 0)
+			(at 105.41 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9566,7 +8862,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-071KL"
-			(at 116.84 71.755 0)
+			(at 105.41 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9575,7 +8871,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 116.84 71.755 0)
+			(at 105.41 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9592,13 +8888,13 @@
 		(instances
 			(project "RP2040"
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "R6")
+					(reference "R?")
 					(unit 1)
 				)
 			)
 			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
-					(reference "R6")
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -9606,7 +8902,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 76.2 81.915 270)
+		(at 64.77 172.72 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9614,8 +8910,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93a77361-241b-4da4-92f5-0cee943c23c2")
-		(property "Reference" "R3"
-			(at 76.2 86.995 90)
+		(property "Reference" "R?"
+			(at 64.77 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9623,7 +8919,7 @@
 			)
 		)
 		(property "Value" "51K"
-			(at 76.2 84.455 90)
+			(at 64.77 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9631,7 +8927,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 76.2 81.915 0)
+			(at 64.77 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9640,7 +8936,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 76.2 81.915 0)
+			(at 64.77 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9649,7 +8945,7 @@
 			)
 		)
 		(property "Description" "51 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 76.2 81.915 0)
+			(at 64.77 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9658,7 +8954,7 @@
 			)
 		)
 		(property "Price" "$0.16 "
-			(at 76.2 81.915 0)
+			(at 64.77 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9667,7 +8963,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 76.2 81.915 0)
+			(at 64.77 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9676,7 +8972,7 @@
 			)
 		)
 		(property "Rating" "RES 51K OHM 1% 1/16W 0402"
-			(at 76.2 81.915 0)
+			(at 64.77 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9685,7 +8981,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 76.2 81.915 0)
+			(at 64.77 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9694,7 +8990,7 @@
 			)
 		)
 		(property "Supplier PN" "311-51.0KLRCT-ND"
-			(at 76.2 81.915 0)
+			(at 64.77 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9703,7 +8999,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 76.2 81.915 0)
+			(at 64.77 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9712,7 +9008,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0751KL"
-			(at 76.2 81.915 0)
+			(at 64.77 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9721,7 +9017,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 76.2 81.915 0)
+			(at 64.77 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9738,13 +9034,13 @@
 		(instances
 			(project "RP2040"
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "R3")
+					(reference "R?")
 					(unit 1)
 				)
 			)
 			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
-					(reference "R3")
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -9829,7 +9125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "RES 27 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+		(property "Rating" "RES 27 OHM 1%  1/16W 0402"
 			(at 173.99 78.74 0)
 			(effects
 				(font
@@ -9879,8 +9175,8 @@
 				)
 			)
 			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
-					(reference "R9")
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -9965,7 +9261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "RES 27 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+		(property "Rating" "RES 27 OHM 1%  1/16W 0402"
 			(at 173.99 81.28 0)
 			(effects
 				(font
@@ -10015,148 +9311,8 @@
 				)
 			)
 			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:NCP1117-3.3_SOT223")
-		(at 77.47 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae762774-b3c4-4096-a71a-9284bb4d8aa1")
-		(property "Reference" "U6"
-			(at 77.47 20.955 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCP1117-3.3_SOT223"
-			(at 77.47 23.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 77.47 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF"
-			(at 80.01 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A Low drop-out regulator, Fixed Output 3.3V, SOT-223"
-			(at 77.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.74"
-			(at 77.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 77.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "IC REG LINEAR POS ADJ 1A SOT223"
-			(at 77.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 77.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "NCP1117LPSTADT3GOSCT-ND"
-			(at 77.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "onsemi"
-			(at 77.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "NCP1117LPSTADT3G"
-			(at 77.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "c9a13a04-054d-4710-9369-2abc193ede7a")
-		)
-		(pin "1"
-			(uuid "c0c257e8-b8cc-42b4-ae50-c5fee60ea8d1")
-		)
-		(pin "2"
-			(uuid "6d096c9b-9a1c-4442-9f63-ae37bbc96ae1")
-		)
-		(instances
-			(project "RP2040"
-				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
-					(reference "U6")
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -10164,7 +9320,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 52.07 81.915 0)
+		(at 40.64 172.72 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10172,8 +9328,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbedb8b6-c33b-41d7-95e3-59a8ca324834")
-		(property "Reference" "SW1"
-			(at 52.07 83.439 0)
+		(property "Reference" "SW?"
+			(at 40.64 174.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10181,7 +9337,7 @@
 			)
 		)
 		(property "Value" "TL3780AF240QG"
-			(at 52.07 85.979 0)
+			(at 40.64 176.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10189,7 +9345,7 @@
 			)
 		)
 		(property "Footprint" "Mad_Footprints:SW_TL3780AF240QG"
-			(at 52.07 76.835 0)
+			(at 40.64 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10198,7 +9354,7 @@
 			)
 		)
 		(property "Datasheet" "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/221/TL3780.pdf"
-			(at 52.07 76.835 0)
+			(at 40.64 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10207,7 +9363,7 @@
 			)
 		)
 		(property "Description" "Tactile Switch SPST-NO Top Actuated Surface Mount"
-			(at 52.07 81.915 0)
+			(at 40.64 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10216,7 +9372,7 @@
 			)
 		)
 		(property "Manufacturer" "E-Switch"
-			(at 52.07 81.915 0)
+			(at 40.64 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10225,7 +9381,7 @@
 			)
 		)
 		(property "Price" "$0.41 "
-			(at 52.07 81.915 0)
+			(at 40.64 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10234,7 +9390,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 52.07 81.915 0)
+			(at 40.64 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10243,7 +9399,7 @@
 			)
 		)
 		(property "Rating" "SWITCH TACTILE SPST-NO 0.05A 12V"
-			(at 52.07 81.915 0)
+			(at 40.64 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10252,7 +9408,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 52.07 81.915 0)
+			(at 40.64 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10261,7 +9417,7 @@
 			)
 		)
 		(property "Supplier PN" "EG5393CT-ND"
-			(at 52.07 81.915 0)
+			(at 40.64 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10270,7 +9426,7 @@
 			)
 		)
 		(property "MPN" "TL3780AF240QG"
-			(at 52.07 81.915 0)
+			(at 40.64 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10287,13 +9443,13 @@
 		(instances
 			(project "RP2040"
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "SW1")
+					(reference "SW?")
 					(unit 1)
 				)
 			)
 			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
-					(reference "SW1")
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -10336,7 +9492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
 			(at 224.79 35.56 0)
 			(effects
 				(font
@@ -10354,7 +9510,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C104K3RAC7867"
+		(property "MPN" "CC0402KPX7R9BB104"
 			(at 224.79 35.56 0)
 			(effects
 				(font
@@ -10363,7 +9519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "YAGEO"
 			(at 224.79 35.56 0)
 			(effects
 				(font
@@ -10372,7 +9528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.33 "
+		(property "Price" "$0.17"
 			(at 224.79 35.56 0)
 			(effects
 				(font
@@ -10381,7 +9537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "CAP CER 0.1UF 25V X7R 0402"
+		(property "Rating" "CAP 0402 50V 100 NF X7R"
 			(at 224.79 35.56 0)
 			(effects
 				(font
@@ -10399,7 +9555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "399-14148-1-ND"
+		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
 			(at 224.79 35.56 0)
 			(effects
 				(font
@@ -10422,135 +9578,8 @@
 				)
 			)
 			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 161.29 96.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c7586099-24ca-4ffc-b218-a5d8a471e2dc")
-		(property "Reference" "C?"
-			(at 161.29 99.568 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22pF"
-			(at 161.036 101.346 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 161.29 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0402C220J4GACTU"
-			(at 161.29 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "22 pF ±5% 16V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
-			(at 161.29 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0402C220J4GAC7867"
-			(at 161.29 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 161.29 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.16"
-			(at 161.29 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "CAP CER 22PF 16V C0G/NP0 0402"
-			(at 161.29 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 161.29 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "399-C0402C220J4GAC7867CT-ND"
-			(at 161.29 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f2f9520b-af29-4296-87ec-e5cb76981a48")
-		)
-		(pin "2"
-			(uuid "889c29aa-99d9-4d8a-b849-b8571f0e82d5")
-		)
-		(instances
-			(project "RP2040"
-				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
-					(reference "C15")
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -10558,15 +9587,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 104.14 67.945 270)
+		(at 92.71 158.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c803b3b1-1e3c-4cc8-bd53-b090037468fa")
-		(property "Reference" "R5"
-			(at 104.14 64.389 90)
+		(property "Reference" "R?"
+			(at 92.71 155.194 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10574,7 +9603,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 104.14 66.167 90)
+			(at 92.71 156.972 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10582,7 +9611,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 104.14 67.945 0)
+			(at 92.71 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10591,7 +9620,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 104.14 67.945 0)
+			(at 92.71 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10600,7 +9629,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 104.14 67.945 0)
+			(at 92.71 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10609,7 +9638,7 @@
 			)
 		)
 		(property "Price" "$0.16 "
-			(at 104.14 67.945 0)
+			(at 92.71 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10618,7 +9647,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 104.14 67.945 0)
+			(at 92.71 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10627,7 +9656,7 @@
 			)
 		)
 		(property "Rating" "RES 10K OHM 1% 1/16W 0402"
-			(at 104.14 67.945 0)
+			(at 92.71 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10636,7 +9665,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 104.14 67.945 0)
+			(at 92.71 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10645,7 +9674,7 @@
 			)
 		)
 		(property "Supplier PN" "311-10.0KLRCT-ND"
-			(at 104.14 67.945 0)
+			(at 92.71 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10654,7 +9683,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 104.14 67.945 0)
+			(at 92.71 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10663,7 +9692,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0710KL"
-			(at 104.14 67.945 0)
+			(at 92.71 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10672,7 +9701,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 104.14 67.945 0)
+			(at 92.71 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10689,13 +9718,134 @@
 		(instances
 			(project "RP2040"
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "R5")
+					(reference "R?")
 					(unit 1)
 				)
 			)
 			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
-					(reference "R5")
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 90.17 71.755 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce75c8c1-66a6-4d6c-ab75-878a37629b34")
+		(property "Reference" "R10"
+			(at 90.17 67.945 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 90.17 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 90.17 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 90.17 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 90.17 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-071KL"
+			(at 90.17 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 90.17 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.16 "
+			(at 90.17 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "RES 1K OHM 1% 1/16W 0402"
+			(at 90.17 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 90.17 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "311-1.00KLRCT-ND"
+			(at 90.17 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "832c0239-d30f-4cbb-90c0-1a942306da72")
+		)
+		(pin "2"
+			(uuid "2395ad76-62ec-45f2-8248-c95486206032")
+		)
+		(instances
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -10738,7 +9888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
 			(at 184.15 35.56 0)
 			(effects
 				(font
@@ -10756,7 +9906,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C104K3RAC7867"
+		(property "MPN" "CC0402KPX7R9BB104"
 			(at 184.15 35.56 0)
 			(effects
 				(font
@@ -10765,7 +9915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "YAGEO"
 			(at 184.15 35.56 0)
 			(effects
 				(font
@@ -10774,7 +9924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.33 "
+		(property "Price" "$0.17"
 			(at 184.15 35.56 0)
 			(effects
 				(font
@@ -10783,7 +9933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "CAP CER 0.1UF 25V X7R 0402"
+		(property "Rating" "CAP 0402 50V 100 NF X7R"
 			(at 184.15 35.56 0)
 			(effects
 				(font
@@ -10801,7 +9951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "399-14148-1-ND"
+		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
 			(at 184.15 35.56 0)
 			(effects
 				(font
@@ -10824,8 +9974,8 @@
 				)
 			)
 			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
-					(reference "C17")
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -10868,7 +10018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
 			(at 215.9 35.56 0)
 			(effects
 				(font
@@ -10886,7 +10036,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C104K3RAC7867"
+		(property "MPN" "CC0402KPX7R9BB104"
 			(at 215.9 35.56 0)
 			(effects
 				(font
@@ -10895,7 +10045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "YAGEO"
 			(at 215.9 35.56 0)
 			(effects
 				(font
@@ -10904,7 +10054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.33 "
+		(property "Price" "$0.17"
 			(at 215.9 35.56 0)
 			(effects
 				(font
@@ -10913,7 +10063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "CAP CER 0.1UF 25V X7R 0402"
+		(property "Rating" "CAP 0402 50V 100 NF X7R"
 			(at 215.9 35.56 0)
 			(effects
 				(font
@@ -10931,7 +10081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "399-14148-1-ND"
+		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
 			(at 215.9 35.56 0)
 			(effects
 				(font
@@ -10954,49 +10104,43 @@
 				)
 			)
 			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
-					(reference "C18")
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C26")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 180.34 96.52 90)
+		(lib_id "Device:C_Small")
+		(at 83.82 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
-		(uuid "ecbc8a8f-d023-438f-b602-92f47848ee21")
-		(property "Reference" "R?"
-			(at 180.34 93.218 90)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "fad268e1-52ad-4c1a-a707-050b8fd34fb9")
+		(property "Reference" "C15"
+			(at 86.36 180.3462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "1K"
-			(at 180.34 94.996 90)
+		(property "Value" "10uF"
+			(at 86.36 182.8862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 180.34 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 180.34 96.52 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 83.82 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11004,8 +10148,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 180.34 96.52 0)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-gphc_x5r_4v-to-50v.pdf"
+			(at 83.82 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11013,8 +10157,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-071KL"
-			(at 180.34 96.52 0)
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X5R 0805 (2012 Metric)"
+			(at 83.82 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11022,8 +10166,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
-			(at 180.34 96.52 0)
+		(property "Price" "$0.47"
+			(at 83.82 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11031,8 +10175,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.16 "
-			(at 180.34 96.52 0)
+		(property "Interface" ""
+			(at 83.82 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11040,8 +10184,8 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "RES 1K OHM 1% 1/16W 0402"
-			(at 180.34 96.52 0)
+		(property "Rating" "CAP CER 10UF 25V X5R 0805"
+			(at 83.82 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11050,7 +10194,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 180.34 96.52 0)
+			(at 83.82 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11058,8 +10202,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "311-1.00KLRCT-ND"
-			(at 180.34 96.52 0)
+		(property "Supplier PN" "311-1869-1-ND"
+			(at 83.82 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11067,22 +10211,34 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "73391515-9f6d-4f40-abab-ab239c5c1d4b")
+		(property "Manufacturer" "YAGEO"
+			(at 83.82 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0805KKX5R8BB106"
+			(at 83.82 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "380aa2d3-14e0-413a-ba2a-4e7816a060ab")
+			(uuid "2124dd16-52b3-47ea-93c8-2cc571937c2a")
+		)
+		(pin "1"
+			(uuid "361fa1ed-ca61-44cb-a2d6-91bbad0ad181")
 		)
 		(instances
-			(project "RP2040"
-				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/a6a5be83-4db2-42b8-9a77-cc31e36ec93b"
-					(reference "R11")
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C15")
 					(unit 1)
 				)
 			)
