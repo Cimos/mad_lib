@@ -1,4 +1,4 @@
-(footprint "SK6812_mini_e"
+(footprint "SK6812_MINI_E"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "SK6812_mini_e"
+	(property "Value" "SK6812_MINI_E"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
