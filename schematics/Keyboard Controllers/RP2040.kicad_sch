@@ -338,31 +338,33 @@
 				)
 			)
 		)
-		(symbol "Device:LED"
+		(symbol "Device:LED_Small"
 			(pin_numbers hide)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 0.254) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 2.54 0)
+				(at -1.27 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
+			(property "Value" "LED_Small"
+				(at -4.445 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -371,6 +373,15 @@
 				)
 			)
 			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -379,16 +390,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
+			(property "ki_keywords" "LED diode light-emitting-diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -406,10 +408,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_0_1"
+			(symbol "LED_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy -0.762 -1.016) (xy -0.762 1.016)
 					)
 					(stroke
 						(width 0.254)
@@ -421,7 +423,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 0) (xy 1.27 0)
+						(xy 1.016 0) (xy -0.762 0)
 					)
 					(stroke
 						(width 0)
@@ -433,7 +435,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
 					)
 					(stroke
 						(width 0.254)
@@ -445,7 +447,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
 					)
 					(stroke
 						(width 0)
@@ -457,7 +459,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
 					)
 					(stroke
 						(width 0)
@@ -468,10 +470,10 @@
 					)
 				)
 			)
-			(symbol "LED_1_1"
+			(symbol "LED_Small_1_1"
 				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
+					(at -2.54 0 0)
+					(length 1.778)
 					(name "K"
 						(effects
 							(font
@@ -488,8 +490,8 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
+					(at 2.54 0 180)
+					(length 1.778)
 					(name "A"
 						(effects
 							(font
@@ -507,32 +509,33 @@
 				)
 			)
 		)
-		(symbol "Device:R"
+		(symbol "Device:R_Small"
 			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0.254) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.032 0 90)
+				(at 0.762 0.508 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at -1.778 0 90)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -549,7 +552,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Description" "Resistor, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -558,7 +561,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
+			(property "ki_keywords" "R resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -576,12 +579,12 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0_1"
+			(symbol "R_Small_0_1"
 				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -589,10 +592,10 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "R_Small_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
+					(at 0 2.54 270)
+					(length 0.762)
 					(name "~"
 						(effects
 							(font
@@ -609,8 +612,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
+					(at 0 -2.54 90)
+					(length 0.762)
 					(name "~"
 						(effects
 							(font
@@ -1066,10 +1069,6 @@
 		(at 162.56 93.345)
 		(uuid "cf24f5be-a76e-4aad-ad77-862abfec2786")
 	)
-	(no_connect
-		(at 252.095 31.115)
-		(uuid "ec1dd4c0-5109-4ed8-b5dd-2bca943c03a8")
-	)
 	(wire
 		(pts
 			(xy 156.845 89.535) (xy 162.56 89.535)
@@ -1119,6 +1118,16 @@
 			(type default)
 		)
 		(uuid "0c330195-a5d2-4272-a90d-0e5014a763db")
+	)
+	(wire
+		(pts
+			(xy 262.89 46.355) (xy 269.875 46.355)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0feb5e9a-26e2-4a21-af37-491534dab0cd")
 	)
 	(wire
 		(pts
@@ -1172,7 +1181,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 103.505) (xy 199.39 104.775)
+			(xy 199.39 102.235) (xy 199.39 104.775)
 		)
 		(stroke
 			(width 0)
@@ -1282,7 +1291,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.875 45.72) (xy 269.875 46.355)
+			(xy 269.875 43.18) (xy 269.875 46.355)
 		)
 		(stroke
 			(width 0)
@@ -1292,7 +1301,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.875 38.1) (xy 269.875 37.465)
+			(xy 269.875 38.1) (xy 269.875 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1322,7 +1331,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 95.25) (xy 199.39 95.885)
+			(xy 199.39 95.25) (xy 199.39 97.155)
 		)
 		(stroke
 			(width 0)
@@ -1542,7 +1551,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 84.455) (xy 199.39 85.725)
+			(xy 199.39 84.455) (xy 199.39 86.995)
 		)
 		(stroke
 			(width 0)
@@ -1732,7 +1741,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 93.345) (xy 199.39 95.25)
+			(xy 199.39 92.075) (xy 199.39 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1742,7 +1751,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.875 29.845) (xy 269.875 26.035)
+			(xy 269.875 30.48) (xy 269.875 26.035)
 		)
 		(stroke
 			(width 0)
@@ -1907,7 +1916,7 @@
 		)
 		(uuid "be73575b-a054-47b1-ae21-c13883bfb4ed")
 	)
-	(label "3V3"
+	(label "5V"
 		(at 262.89 26.035 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1940,6 +1949,17 @@
 		)
 		(uuid "d0283dde-93dd-4060-ac3f-fd3a8b44711a")
 	)
+	(label "3V3"
+		(at 262.89 46.355 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d428afae-5e7f-47e3-9158-627578ffb508")
+	)
 	(label "SWCLK"
 		(at 40.64 180.34 180)
 		(fields_autoplaced yes)
@@ -1961,18 +1981,6 @@
 			(justify left bottom)
 		)
 		(uuid "ff0772df-7e78-49fd-9cfa-5a757af1da80")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 269.875 46.355 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0839c67e-0ee5-439c-8ee1-986b9a6f5089")
 	)
 	(hierarchical_label "IO_10"
 		(shape bidirectional)
@@ -2214,6 +2222,18 @@
 		)
 		(uuid "9ba0940d-f335-47b5-9fb0-bce113c5b858")
 	)
+	(hierarchical_label "LED_DO"
+		(shape output)
+		(at 252.095 31.115 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2943cde-a766-4c50-8429-053f8c6d7781")
+	)
 	(hierarchical_label "ENC2B"
 		(shape input)
 		(at 162.56 85.725 0)
@@ -2359,8 +2379,150 @@
 		(uuid "fd9cabf5-2e76-4024-8576-f31a99cf5562")
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 269.875 41.91 90)
+		(lib_id "Device:R_Small")
+		(at 269.875 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "139b79f2-81a1-491d-a67b-ba0089b0f387")
+		(property "Reference" "R15"
+			(at 271.145 30.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1K"
+			(at 271.145 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 269.875 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 269.875 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 269.875 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.16 "
+			(at 269.875 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 269.875 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "RES 1K OHM 1% 1/16W 0402"
+			(at 269.875 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 269.875 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "311-1.00KLRCT-ND"
+			(at 269.875 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 269.875 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-071KL"
+			(at 269.875 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 269.875 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83032424-6811-459d-9d6b-97b53d5b322d")
+		)
+		(pin "2"
+			(uuid "3a95ecda-d6bb-4edf-97d7-f0294566e795")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 269.875 40.64 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2368,25 +2530,25 @@
 		(dnp no)
 		(uuid "1591f8e8-588a-4715-8edf-8434381c12e3")
 		(property "Reference" "D2"
-			(at 272.8468 40.9194 90)
+			(at 271.78 38.735 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 272.8468 43.2308 90)
+		(property "Value" "GREEN"
+			(at 271.78 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 269.875 41.91 0)
+			(at 269.875 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2394,8 +2556,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 269.875 41.91 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060VS75000.pdf"
+			(at 269.875 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2403,8 +2565,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 269.875 41.91 0)
+		(property "Description" "Green 570nm LED Indication - Discrete 2V 0603 (1608 Metric)"
+			(at 269.875 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2412,8 +2574,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C268294"
-			(at 269.875 41.91 0)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 269.875 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2421,8 +2583,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN " "OSK40603C1E"
-			(at 269.875 41.91 0)
+		(property "Price" "$0.24"
+			(at 269.875 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2430,8 +2592,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "OptoSupply"
-			(at 269.875 41.91 0)
+		(property "Interface" ""
+			(at 269.875 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2439,8 +2601,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Basic" "Y"
-			(at 269.875 41.91 0)
+		(property "Rating" "LED GREEN CLEAR 0603 SMD"
+			(at 269.875 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2448,8 +2610,26 @@
 				(hide yes)
 			)
 		)
-		(property "Substitute" "Y - any pink"
-			(at 269.875 41.91 0)
+		(property "Supplier" "Digikey"
+			(at 269.875 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "732-4980-1-ND"
+			(at 269.875 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "150060VS75000"
+			(at 269.875 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2464,7 +2644,7 @@
 			(uuid "21702de2-6743-4141-a2cb-6718e77e2ec9")
 		)
 		(instances
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820"
 					(reference "D2")
 					(unit 1)
@@ -2598,7 +2778,7 @@
 			(uuid "b618aea6-3455-471b-b9fe-93a159a16507")
 		)
 		(instances
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820"
 					(reference "U3")
 					(unit 1)
@@ -2680,7 +2860,7 @@
 			(uuid "df06a552-9109-4c78-8606-7e085fc726e1")
 		)
 		(instances
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820"
 					(reference "J2")
 					(unit 1)
@@ -2689,167 +2869,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 269.875 33.655 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ea70e3c-c4a8-4efb-8af8-50730175affe")
-		(property "Reference" "R5"
-			(at 271.78 32.3849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2K2"
-			(at 271.78 34.9249 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 268.097 33.655 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 269.875 33.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2.2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 269.875 33.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Basic" "Y"
-			(at 269.875 33.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25879"
-			(at 269.875 33.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " "0402WGF2201TCE"
-			(at 269.875 33.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 269.875 33.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" "Y"
-			(at 269.875 33.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0402FR-072K2L"
-			(at 269.875 33.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.16 "
-			(at 269.875 33.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "RES 2.2K OHM 1% 1/16W 0402"
-			(at 269.875 33.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 269.875 33.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "311-2.20KLRCT-ND"
-			(at 269.875 33.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f92e80f-014d-435d-98c6-e4f4c86ca2bd")
-		)
-		(pin "2"
-			(uuid "ed6c98dd-584d-4fce-890f-ec2008ad7a2b")
-		)
-		(instances
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_Small")
 		(at 199.39 99.695 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2964,133 +2984,9 @@
 			(uuid "ff13cb58-c476-4a11-85de-ec23bb5e9499")
 		)
 		(instances
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 199.39 89.535 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e11a1c8-d470-417e-b0d7-dd8e8c3b45fc")
-		(property "Reference" "R3"
-			(at 201.295 88.2649 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2K2"
-			(at 201.295 90.8049 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 197.612 89.535 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 199.39 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2.2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 199.39 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 199.39 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0402FR-072K2L"
-			(at 199.39 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.16 "
-			(at 199.39 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "RES 2.2K OHM 1% 1/16W 0402"
-			(at 199.39 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 199.39 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "311-2.20KLRCT-ND"
-			(at 199.39 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14876609-17c8-4f5b-9d75-f9b7cdedcbfc")
-		)
-		(pin "2"
-			(uuid "a79dc6a3-8ba8-4099-a33a-e67a4f81249c")
-		)
-		(instances
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3153,7 +3049,7 @@
 			(uuid "4cdf0529-7998-4104-99b6-78569e47368b")
 		)
 		(instances
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820"
 					(reference "#PWR06")
 					(unit 1)
@@ -3277,7 +3173,7 @@
 			(uuid "5c4bdef7-066b-4c03-af0d-208291824e4d")
 		)
 		(instances
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820"
 					(reference "C4")
 					(unit 1)
@@ -3302,7 +3198,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812_MINI_E"
+		(property "Value" "WS2812B-2020"
 			(at 235.585 36.195 0)
 			(effects
 				(font
@@ -3328,17 +3224,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Programmable LED"
+		(property "Description" "SMD,2x2mm RGB LEDs(Built-in IC) ROHS "
 			(at 224.155 36.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C965556"
-			(at 235.585 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3364,25 +3251,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Basic" "N"
-			(at 235.585 32.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" "N"
-			(at 235.585 32.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.42"
+		(property "Price" "$ 0.36"
 			(at 235.585 32.385 0)
 			(effects
 				(font
@@ -3418,7 +3287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C965556"
+		(property "Supplier PN" "C965555"
 			(at 235.585 32.385 0)
 			(effects
 				(font
@@ -3427,7 +3296,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "WS2812C-2020"
+		(property "MPN" "WS2812B-2020 "
 			(at 235.585 32.385 0)
 			(effects
 				(font
@@ -3449,9 +3318,133 @@
 			(uuid "0f757a46-0227-450b-8208-79b7e856b34e")
 		)
 		(instances
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 199.39 89.535 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a21e4d8e-4bfa-4a4a-8a59-e0eaf9e5d69f")
+		(property "Reference" "R3"
+			(at 201.295 88.2649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5K1"
+			(at 201.295 90.8049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 197.612 89.535 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 199.39 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5.1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 199.39 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 199.39 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-075K1L"
+			(at 199.39 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.16 "
+			(at 199.39 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "RES 5.1K OHM 1% 1/16W 0402"
+			(at 199.39 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 199.39 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "311-5.10KLRCT-ND"
+			(at 199.39 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d4ec602-c392-4bce-b660-62df1fb3a71c")
+		)
+		(pin "2"
+			(uuid "db8a6019-aadb-4526-b415-fb61b17a0dc6")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3582,7 +3575,7 @@
 			(uuid "704d94b2-64ae-455b-baba-0748eb1f4958")
 		)
 		(instances
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820"
 					(reference "C5")
 					(unit 1)
@@ -3992,7 +3985,7 @@
 			(uuid "1b33e252-5d9a-4c02-af8d-cb2a5d068770")
 		)
 		(instances
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820"
 					(page "4")
 				)

@@ -3065,7 +3065,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.245 78.105) (xy 55.245 77.47)
+			(xy 55.245 80.01) (xy 55.245 78.105)
 		)
 		(stroke
 			(width 0)
@@ -3445,7 +3445,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.245 72.39) (xy 55.245 71.755)
+			(xy 55.245 73.025) (xy 55.245 71.755)
 		)
 		(stroke
 			(width 0)
@@ -4415,7 +4415,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.895 78.105) (xy 55.245 78.105)
+			(xy 48.895 80.01) (xy 55.245 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4857,7 +4857,7 @@
 		(uuid "964ae132-5df5-4818-856c-758fed82fbf1")
 	)
 	(label "GND"
-		(at 48.895 78.105 0)
+		(at 48.895 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5596,7 +5596,7 @@
 					(unit 1)
 				)
 			)
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "TP2")
 					(unit 1)
@@ -5726,7 +5726,7 @@
 					(unit 1)
 				)
 			)
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "C21")
 					(unit 1)
@@ -5881,7 +5881,7 @@
 					(unit 2)
 				)
 			)
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "Q1")
 					(unit 2)
@@ -6026,7 +6026,7 @@
 					(unit 1)
 				)
 			)
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "R7")
 					(unit 1)
@@ -6329,7 +6329,7 @@
 					(unit 1)
 				)
 			)
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "U5")
 					(unit 1)
@@ -6476,7 +6476,7 @@
 					(unit 1)
 				)
 			)
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "R6")
 					(unit 1)
@@ -6615,7 +6615,7 @@
 					(unit 1)
 				)
 			)
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "C16")
 					(unit 1)
@@ -6754,7 +6754,7 @@
 					(unit 1)
 				)
 			)
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "C17")
 					(unit 1)
@@ -6891,7 +6891,7 @@
 			(uuid "a6fdfd11-24a4-411a-963a-c588d77407fc")
 		)
 		(instances
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "X1")
 					(unit 1)
@@ -7030,7 +7030,7 @@
 					(unit 1)
 				)
 			)
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "C20")
 					(unit 1)
@@ -7160,7 +7160,7 @@
 					(unit 1)
 				)
 			)
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "C18")
 					(unit 1)
@@ -7318,7 +7318,7 @@
 					(unit 1)
 				)
 			)
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "U4")
 					(unit 1)
@@ -7390,7 +7390,7 @@
 					(unit 1)
 				)
 			)
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "TP3")
 					(unit 1)
@@ -7409,7 +7409,7 @@
 		(dnp no)
 		(uuid "5fa27eae-cce5-4ed4-9b78-0c7937e606d4")
 		(property "Reference" "C?"
-			(at 53.34 112.3949 0)
+			(at 52.705 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7418,7 +7418,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 53.34 117.4749 0)
+			(at 52.705 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7520,7 +7520,7 @@
 					(unit 1)
 				)
 			)
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "C12")
 					(unit 1)
@@ -7656,7 +7656,7 @@
 					(unit 1)
 				)
 			)
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "D18")
 					(unit 1)
@@ -7786,7 +7786,7 @@
 					(unit 1)
 				)
 			)
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "C23")
 					(unit 1)
@@ -7931,7 +7931,7 @@
 					(unit 1)
 				)
 			)
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "Q1")
 					(unit 1)
@@ -8078,7 +8078,7 @@
 					(unit 1)
 				)
 			)
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "R9")
 					(unit 1)
@@ -8088,8 +8088,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 55.245 74.93 0)
-		(mirror y)
+		(at 55.245 75.565 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8097,7 +8096,7 @@
 		(dnp no)
 		(uuid "77f2f73b-b701-48f4-a758-ed4f460053c7")
 		(property "Reference" "C13"
-			(at 57.785 72.39 0)
+			(at 52.705 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8106,7 +8105,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 57.785 74.93 0)
+			(at 52.705 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8115,7 +8114,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 55.245 74.93 0)
+			(at 55.245 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8124,7 +8123,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 55.245 74.93 0)
+			(at 55.245 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8133,7 +8132,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 55.245 74.93 0)
+			(at 55.245 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8142,7 +8141,7 @@
 			)
 		)
 		(property "Price" "$0.17"
-			(at 55.245 74.93 0)
+			(at 55.245 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8151,7 +8150,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 55.245 74.93 0)
+			(at 55.245 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8160,7 +8159,7 @@
 			)
 		)
 		(property "Rating" "CAP 0402 50V 100 NF X7R"
-			(at 55.245 74.93 0)
+			(at 55.245 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8169,7 +8168,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 55.245 74.93 0)
+			(at 55.245 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8178,7 +8177,7 @@
 			)
 		)
 		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
-			(at 55.245 74.93 0)
+			(at 55.245 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8187,7 +8186,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 55.245 74.93 0)
+			(at 55.245 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8196,7 +8195,7 @@
 			)
 		)
 		(property "MPN" "CC0402KPX7R9BB104"
-			(at 55.245 74.93 0)
+			(at 55.245 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8211,7 +8210,7 @@
 			(uuid "3f255d4a-bb75-4e7b-b5da-944ec95b76de")
 		)
 		(instances
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "C13")
 					(unit 1)
@@ -8341,7 +8340,7 @@
 					(unit 1)
 				)
 			)
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "C24")
 					(unit 1)
@@ -8471,7 +8470,7 @@
 					(unit 1)
 				)
 			)
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "C19")
 					(unit 1)
@@ -8610,7 +8609,7 @@
 					(unit 1)
 				)
 			)
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "C22")
 					(unit 1)
@@ -8745,7 +8744,7 @@
 					(unit 1)
 				)
 			)
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "TP1")
 					(unit 1)
@@ -8892,7 +8891,7 @@
 					(unit 1)
 				)
 			)
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "R12")
 					(unit 1)
@@ -9038,7 +9037,7 @@
 					(unit 1)
 				)
 			)
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "R8")
 					(unit 1)
@@ -9174,7 +9173,7 @@
 					(unit 1)
 				)
 			)
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "R13")
 					(unit 1)
@@ -9310,7 +9309,7 @@
 					(unit 1)
 				)
 			)
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "R14")
 					(unit 1)
@@ -9447,7 +9446,7 @@
 					(unit 1)
 				)
 			)
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "SW10")
 					(unit 1)
@@ -9577,7 +9576,7 @@
 					(unit 1)
 				)
 			)
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "C27")
 					(unit 1)
@@ -9722,7 +9721,7 @@
 					(unit 1)
 				)
 			)
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "R11")
 					(unit 1)
@@ -9843,7 +9842,7 @@
 			(uuid "2395ad76-62ec-45f2-8248-c95486206032")
 		)
 		(instances
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "R10")
 					(unit 1)
@@ -9973,7 +9972,7 @@
 					(unit 1)
 				)
 			)
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "C25")
 					(unit 1)
@@ -10103,7 +10102,7 @@
 					(unit 1)
 				)
 			)
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "C26")
 					(unit 1)
@@ -10236,7 +10235,7 @@
 			(uuid "361fa1ed-ca61-44cb-a2d6-91bbad0ad181")
 		)
 		(instances
-			(project "CrumbCatcherLight"
+			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "C15")
 					(unit 1)
