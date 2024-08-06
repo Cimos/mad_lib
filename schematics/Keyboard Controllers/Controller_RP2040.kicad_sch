@@ -2511,6 +2511,12 @@
 			(uuid "3a95ecda-d6bb-4edf-97d7-f0294566e795")
 		)
 		(instances
+			(project "Controller_RP2040"
+				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97"
+					(reference "R15")
+					(unit 1)
+				)
+			)
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820"
 					(reference "R15")
@@ -2644,6 +2650,12 @@
 			(uuid "21702de2-6743-4141-a2cb-6718e77e2ec9")
 		)
 		(instances
+			(project "Controller_RP2040"
+				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97"
+					(reference "D2")
+					(unit 1)
+				)
+			)
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820"
 					(reference "D2")
@@ -2778,6 +2790,12 @@
 			(uuid "b618aea6-3455-471b-b9fe-93a159a16507")
 		)
 		(instances
+			(project "Controller_RP2040"
+				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97"
+					(reference "U3")
+					(unit 1)
+				)
+			)
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820"
 					(reference "U3")
@@ -2860,6 +2878,12 @@
 			(uuid "df06a552-9109-4c78-8606-7e085fc726e1")
 		)
 		(instances
+			(project "Controller_RP2040"
+				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97"
+					(reference "J2")
+					(unit 1)
+				)
+			)
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820"
 					(reference "J2")
@@ -2984,6 +3008,12 @@
 			(uuid "ff13cb58-c476-4a11-85de-ec23bb5e9499")
 		)
 		(instances
+			(project "Controller_RP2040"
+				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820"
 					(reference "R4")
@@ -3049,6 +3079,12 @@
 			(uuid "4cdf0529-7998-4104-99b6-78569e47368b")
 		)
 		(instances
+			(project "Controller_RP2040"
+				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820"
 					(reference "#PWR06")
@@ -3173,6 +3209,12 @@
 			(uuid "5c4bdef7-066b-4c03-af0d-208291824e4d")
 		)
 		(instances
+			(project "Controller_RP2040"
+				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820"
 					(reference "C4")
@@ -3318,6 +3360,12 @@
 			(uuid "0f757a46-0227-450b-8208-79b7e856b34e")
 		)
 		(instances
+			(project "Controller_RP2040"
+				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820"
 					(reference "D1")
@@ -3442,6 +3490,12 @@
 			(uuid "db8a6019-aadb-4526-b415-fb61b17a0dc6")
 		)
 		(instances
+			(project "Controller_RP2040"
+				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820"
 					(reference "R3")
@@ -3575,6 +3629,12 @@
 			(uuid "704d94b2-64ae-455b-baba-0748eb1f4958")
 		)
 		(instances
+			(project "Controller_RP2040"
+				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820"
 					(reference "C5")
@@ -3604,7 +3664,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../MCU/RP2040.kicad_sch"
+		(property "Sheetfile" "../MCU/MCU_RP2040.kicad_sch"
 			(at 116.205 117.4246 0)
 			(effects
 				(font
@@ -3990,6 +4050,16 @@
 					(page "4")
 				)
 			)
+			(project "Controller_RP2040"
+				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )
