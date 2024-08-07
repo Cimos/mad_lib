@@ -902,126 +902,6 @@
 				)
 			)
 		)
-		(symbol "power:VBUS"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 67.945 71.12)
@@ -1551,7 +1431,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 84.455) (xy 199.39 86.995)
+			(xy 199.39 83.185) (xy 199.39 85.725)
 		)
 		(stroke
 			(width 0)
@@ -1658,6 +1538,16 @@
 			(type solid)
 		)
 		(uuid "d1526ba4-bfc4-4e33-bdcd-a6e8460d93dc")
+	)
+	(wire
+		(pts
+			(xy 191.77 83.185) (xy 199.39 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d85f0fa4-44eb-4a9f-9c3d-3bf371bb5ce4")
 	)
 	(wire
 		(pts
@@ -1770,6 +1660,18 @@
 			(type none)
 		)
 		(uuid 5a18eb3d-798e-4d4c-a876-da5ffdf888ae)
+	)
+	(text "Update"
+		(exclude_from_sim no)
+		(at 268.605 33.02 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "33205136-b6a7-4eb8-8c98-10b0ddacd834")
 	)
 	(text "Power LED"
 		(exclude_from_sim no)
@@ -1950,7 +1852,7 @@
 		(uuid "d0283dde-93dd-4060-ac3f-fd3a8b44711a")
 	)
 	(label "3V3"
-		(at 262.89 46.355 0)
+		(at 191.77 83.185 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1958,7 +1860,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d428afae-5e7f-47e3-9158-627578ffb508")
+		(uuid "d70bce8b-3e93-4c83-b22b-070831f63483")
 	)
 	(label "SWCLK"
 		(at 40.64 180.34 180)
@@ -3017,77 +2919,6 @@
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 199.39 84.455 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8b27dcbd-7aff-4abe-8489-020990f753f5")
-		(property "Reference" "#PWR06"
-			(at 199.39 88.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 199.39 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 199.39 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4cdf0529-7998-4104-99b6-78569e47368b")
-		)
-		(instances
-			(project "Controller_RP2040"
-				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
