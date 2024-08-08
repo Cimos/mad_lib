@@ -5586,6 +5586,69 @@
 				(hide yes)
 			)
 		)
+		(property "Price" ""
+			(at 93.98 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 93.98 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 93.98 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 93.98 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" ""
+			(at 93.98 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 93.98 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 93.98 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6384738f-ca21-4cc3-93d0-7ce7816b3209")
 		)
@@ -5596,8 +5659,8 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "TP2")
 					(unit 1)
 				)
@@ -5726,9 +5789,9 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "C21")
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -5881,8 +5944,8 @@
 					(unit 2)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "Q1")
 					(unit 2)
 				)
@@ -6026,9 +6089,9 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "R7")
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6329,8 +6392,8 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "U5")
 					(unit 1)
 				)
@@ -6476,9 +6539,9 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "R6")
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6615,9 +6678,9 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "C16")
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -6754,9 +6817,9 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "C17")
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6897,8 +6960,8 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "X1")
 					(unit 1)
 				)
@@ -7036,9 +7099,9 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "C20")
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -7166,9 +7229,9 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "C18")
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -7324,8 +7387,8 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "U4")
 					(unit 1)
 				)
@@ -7386,6 +7449,69 @@
 				(hide yes)
 			)
 		)
+		(property "Price" ""
+			(at 106.68 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 106.68 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 106.68 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 106.68 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" ""
+			(at 106.68 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 106.68 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 106.68 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "06e44cce-ac16-437a-bb8e-8dca9e3ad17f")
 		)
@@ -7396,8 +7522,8 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "TP3")
 					(unit 1)
 				)
@@ -7526,9 +7652,9 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "C12")
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -7662,9 +7788,9 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "D18")
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -7792,9 +7918,9 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "C23")
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -7937,8 +8063,8 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "Q1")
 					(unit 1)
 				)
@@ -8084,9 +8210,9 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "R9")
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8222,9 +8348,9 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "C13")
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -8352,9 +8478,9 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "C24")
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -8482,9 +8608,9 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "C19")
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -8621,9 +8747,9 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "C22")
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -8756,8 +8882,8 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "TP1")
 					(unit 1)
 				)
@@ -8903,9 +9029,9 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "R12")
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9049,9 +9175,9 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "R8")
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -9185,9 +9311,9 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "R13")
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -9321,9 +9447,9 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "R14")
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -9458,9 +9584,9 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "SW10")
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -9588,9 +9714,9 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "C27")
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -9733,9 +9859,9 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "R11")
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -9860,9 +9986,9 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "R10")
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -9990,9 +10116,9 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "C25")
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -10120,9 +10246,9 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "C26")
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -10259,9 +10385,9 @@
 					(unit 1)
 				)
 			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "C15")
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/d6e61d54-5c6d-43d3-8cde-aaa69c4aea8b/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C8")
 					(unit 1)
 				)
 			)
