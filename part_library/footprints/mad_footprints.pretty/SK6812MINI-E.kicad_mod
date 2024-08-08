@@ -1,4 +1,4 @@
-(footprint "SK6812_MINI_E"
+(footprint "SK6812MINI-E"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -6,7 +6,7 @@
 	(descr "SK6812, RGB, LED, Adafruit")
 	(tags "SK6812, RGB, LED, Adafruit")
 	(property "Reference" "REF**"
-		(at 0.05 -0.5 0)
+		(at 0 -2.2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "979a25fe-d40d-4ee8-8e0a-c0d0fe716357")
@@ -17,8 +17,8 @@
 			)
 		)
 	)
-	(property "Value" "SK6812_MINI_E"
-		(at 0 1 0)
+	(property "Value" "SK6812MINI-E"
+		(at 0 -0.7 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "6bc51adc-60b2-488c-973e-8fe5a8f383ef")
@@ -42,7 +42,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2407081128_OPSCO-Optoelectronics-SK6812MINI-E_C5149201.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -133,7 +133,7 @@
 		(uuid "9f6c2186-55b3-46e4-918e-16c1c772dd60")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 0 0.8 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "5abcb77e-cff4-4dd6-8e42-7ee4c5dcf5a6")

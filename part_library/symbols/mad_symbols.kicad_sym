@@ -1384,7 +1384,7 @@
 			)
 		)
 	)
-	(symbol "SK6812_Mini_E"
+	(symbol "SK6812MINI-012"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1396,15 +1396,15 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at -11.43 -3.81 0)
+		(property "Value" "SK6812MINI-012"
+			(at -0.254 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Mad_Footprints:SK6812_mini_e"
+		(property "Footprint" "Mad_Footprints:SK6812MINI-012"
 			(at 0 -5.588 0)
 			(effects
 				(font
@@ -1413,7 +1413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304171800_OPSCO-Optoelectronics-SK6812mini_C2886570.pdf"
 			(at 0 -7.366 0)
 			(effects
 				(font
@@ -1422,7 +1422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+		(property "Description" "3.5x3.7x1.1mm 0.2W Intelligent external control surface mount SMD LED"
 			(at -11.43 -3.81 0)
 			(effects
 				(font
@@ -1431,7 +1431,16 @@
 				(hide yes)
 			)
 		)
-		(symbol "SK6812_Mini_E_0_1"
+		(property "ki_keywords" "SK6812MINI,SK6812,MINI"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SK6812MINI-012_0_1"
 			(rectangle
 				(start -5.08 2.54)
 				(end 5.08 -2.54)
@@ -1444,7 +1453,7 @@
 				)
 			)
 		)
-		(symbol "SK6812_Mini_E_1_1"
+		(symbol "SK6812MINI-012_1_1"
 			(pin power_in line
 				(at -7.62 1.27 0)
 				(length 2.54)
@@ -1957,6 +1966,61 @@
 						)
 					)
 				)
+			)
+		)
+	)
+	(symbol "SK6812MINI-E"
+		(extends "SK6812MINI-012")
+		(property "Reference" "D"
+			(at -4.572 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at -0.254 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mad_Footprints:SK6812MINI-E"
+			(at 0 -5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+			(at 0 -7.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED"
+			(at -11.43 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "SK6812MINI,SK6812,MINI"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 	)

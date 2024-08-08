@@ -1,0 +1,285 @@
+(footprint "SK6812MINI-012"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SK6812, RGB, LED, Adafruit 3537")
+	(tags "SK6812, RGB, LED, Adafruit")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "979a25fe-d40d-4ee8-8e0a-c0d0fe716357")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SK6812MINI-012"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6bc51adc-60b2-488c-973e-8fe5a8f383ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b76d4c8a-dac9-456f-bffc-92a9751b1c49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304171800_OPSCO-Optoelectronics-SK6812mini_C2886570.pdf"
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "924509b9-dff3-4fe2-ace2-b02f98148b19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9376ab37-af77-48f1-9e85-fffa93d28554")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.75 -1.75)
+		(end 1.75 -1.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83360cb6-5b0c-4a60-9ce1-8e46ea3c1ce8")
+	)
+	(fp_line
+		(start -1.75 -1.62)
+		(end -1.75 -1.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "10a49900-0766-436f-9ac3-2dd233f00cbd")
+	)
+	(fp_line
+		(start -1.75 1.75)
+		(end -1.75 1.62)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6736826d-a612-4cb7-acd1-9000451fe491")
+	)
+	(fp_line
+		(start 1.75 -1.75)
+		(end 1.75 -1.62)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0cd20730-39ce-47de-83df-103d206610f7")
+	)
+	(fp_line
+		(start 1.75 1.75)
+		(end -1.75 1.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dbb54789-be4f-4973-9d70-20207a9e387d")
+	)
+	(fp_line
+		(start 1.75 1.75)
+		(end 1.75 1.62)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "32d59f5d-acdf-4f34-a912-5bf24fd8559d")
+	)
+	(fp_circle
+		(center -2.7 -1.5)
+		(end -2.6 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "6a87a82d-6209-47f3-906b-f2be111fe900")
+	)
+	(fp_line
+		(start -2.4 -2)
+		(end -2.4 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "213a3136-a802-411c-91e8-a168b1763bf4")
+	)
+	(fp_line
+		(start -2.4 2)
+		(end 2.4 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "55b5804c-a913-47c9-9b83-477bbc105450")
+	)
+	(fp_line
+		(start 2.4 -2)
+		(end -2.4 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "03db2858-513b-4555-8af6-a06d99a06b6f")
+	)
+	(fp_line
+		(start 2.4 2)
+		(end 2.4 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fd5d4107-1dbe-428e-a75a-253527ebce64")
+	)
+	(fp_line
+		(start -1.75 -1.75)
+		(end 1.75 -1.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "31c4c618-b585-4f5f-928b-98cb37f79aa7")
+	)
+	(fp_line
+		(start -1.75 1.75)
+		(end -1.75 -1.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "47610f43-6926-417d-91b8-b065ab3c4b3e")
+	)
+	(fp_line
+		(start 1.75 -1.75)
+		(end 1.75 1.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6827b851-be59-426d-9f80-78bc2bae7115")
+	)
+	(fp_line
+		(start 1.75 1.75)
+		(end -1.75 1.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f9fd9fff-0a41-4f3e-8c03-6c133c42deea")
+	)
+	(fp_circle
+		(center -2.7 -1.5)
+		(end -2.6 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "627b5f14-e3c2-4f84-b141-c9cb2e890b2f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5abcb77e-cff4-4dd6-8e42-7ee4c5dcf5a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.5 -0.85)
+		(size 1.3 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "bdd82ce0-7cdd-4f05-85db-cdcd92f2fa33")
+	)
+	(pad "2" smd roundrect
+		(at -1.05 0.7)
+		(size 2.2 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2083333333)
+		(uuid "ae3800ff-237d-4ecd-8bce-8c4ea897ce5e")
+	)
+	(pad "3" smd roundrect
+		(at 1.4 0.65)
+		(size 1.5 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1923076923)
+		(uuid "15e5b8c9-1839-4e65-9de7-1278dd670121")
+	)
+	(pad "4" smd roundrect
+		(at 0.95 -0.9)
+		(size 2.4 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "d0eb8410-3ea8-4bb8-8bd9-bc515d768b78")
+	)
+	(model "${KIPRJMOD}/mad_lib/part_library/models/Adafruit/LED_SK6812MINI-012.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
