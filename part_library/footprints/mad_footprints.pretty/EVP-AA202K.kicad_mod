@@ -1,0 +1,167 @@
+(footprint "EVP-AA202K"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Tactile Switch SPST-NO Top Actuated Surface Mount")
+	(tags "SWITCH TACTILE SPST-NO")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "de23a8a2-7832-479a-a8ab-71e91c46d50f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "EVP-AA202K"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "42e5fbf2-1d9f-42fa-8449-3bcc04563bb8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32774c31-14ca-4731-86bb-c0b01090e43e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www3.panasonic.biz/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_3529s.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4f53b1d-c1e6-4f1c-8746-ec38822eeb00")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SWITCH TACTILE SPST-NO 0.02A 15V"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "576f098a-d740-4fc4-adc0-c7b4665c66ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -1.3)
+		(end -1 -1.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0881a325-1ca0-41de-b277-c4090d20c123")
+	)
+	(fp_line
+		(start 0 -1.3)
+		(end 1 -1.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e63b7846-b507-4b13-916c-631a922c97a0")
+	)
+	(fp_line
+		(start 0 1.3)
+		(end -1 1.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e98137b8-2f78-44f3-8e3a-c1bd9b0eba92")
+	)
+	(fp_line
+		(start 0 1.3)
+		(end 1 1.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "70e9763b-9830-4529-a1df-94eaabfadc87")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1f890b23-b183-4bd5-a0ef-aa11ccbf7993")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.675 -0.725)
+		(size 1.15 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "70a24dc3-a5c7-4ab1-b6cf-f6879e9f158a")
+	)
+	(pad "1" smd roundrect
+		(at 1.675 -0.725)
+		(size 1.15 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "112009df-0fa5-4414-a501-b68d606605c4")
+	)
+	(pad "2" smd roundrect
+		(at -1.675 0.725)
+		(size 1.15 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "18d8b3df-7f96-46bc-955f-4f1b87b8cf01")
+	)
+	(pad "2" smd roundrect
+		(at 1.675 0.725)
+		(size 1.15 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "5dc5d7d1-a70c-481e-b6fb-d07e91dae436")
+	)
+	(model "${KIPRJMOD}/mad_lib/part_library/models/Panasonic/evpaa202k.stp"
+		(offset
+			(xyz 1.5 -1 1.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1540,7 +1540,7 @@
 				)
 			)
 		)
-		(property "Value" "GD25LQ128DYIGR"
+		(property "Value" "W25Q128JVSIQ"
 			(at -3.81 8.89 0)
 			(effects
 				(font
@@ -1548,7 +1548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm"
+		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1557,7 +1557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.gigadevice.com.cn/Public/Uploads/uploadfile/files/20220714/DS-00291-GD25LQ128D-Rev1.9.pdf"
+		(property "Datasheet" "https://www.winbond.com/resource-files/W25Q128JV%20RevI%2008232021%20Plus.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1566,7 +1566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FLASH - NOR Memory IC 128Mbit SPI - Quad I/O 120 MHz 8-WSON (6x8)"
+		(property "Description" "FLASH - NOR Memory IC 128Mbit SPI - Quad I/O, QPI, DTR 133 MHz 8-SOIC"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1575,7 +1575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "GigaDevice Semiconductor (HK) Limited"
+		(property "Manufacturer" "Winbond Electronics"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1584,7 +1584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$3.48 "
+		(property "Price" "$2.72"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1602,7 +1602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "IC FLASH 128MBIT SPI/QUAD 8WSON"
+		(property "Rating" "IC FLASH 128MBIT SPI/QUAD 8SOIC"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1620,7 +1620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "1970-1088-1-ND"
+		(property "Supplier PN" "W25Q128JVSIQ-ND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1629,7 +1629,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GD25LQ128DYIGR"
+		(property "MPN" "W25Q128JVSIQ"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1725,7 +1725,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 -5.08 180)
+				(at 5.08 -7.62 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1807,24 +1807,6 @@
 					)
 				)
 				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 5.08 -7.62 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
