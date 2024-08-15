@@ -215,4 +215,15 @@
 		(roundrect_rratio 0.25)
 		(uuid "0f98ee59-9953-42ec-b3ad-50e18dd7b3cb")
 	)
+	(model "${KIPRJMOD}/mad_lib/part_library/models/Worldsemi/LED_WS2812_2020.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
