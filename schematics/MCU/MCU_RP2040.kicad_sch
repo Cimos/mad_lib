@@ -5506,7 +5506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.10 "
+		(property "Price" "$0.10"
 			(at 147.32 33.02 0)
 			(effects
 				(font
@@ -5809,7 +5809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.10 "
+		(property "Price" "$0.10"
 			(at 63.5 160.02 0)
 			(effects
 				(font
@@ -6298,7 +6298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.10 "
+		(property "Price" "$0.10"
 			(at 53.34 185.42 0)
 			(effects
 				(font
@@ -6545,6 +6545,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier PN" "311-1869-1-ND"
+			(at 96.52 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c0d2498c-2b74-44d1-93c6-41c8f4e7562a")
 		)
@@ -6622,7 +6631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.10 "
+		(property "Price" "$0.10"
 			(at 113.03 33.02 0)
 			(effects
 				(font
@@ -7126,7 +7135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.10 "
+		(property "Price" "$0.10"
 			(at 124.46 33.02 0)
 			(effects
 				(font
@@ -7622,7 +7631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.10 "
+		(property "Price" "$0.10"
 			(at 59.69 114.3 0)
 			(effects
 				(font
@@ -7936,7 +7945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.10 "
+		(property "Price" "$0.10"
 			(at 158.75 33.02 0)
 			(effects
 				(font
@@ -8085,7 +8094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.10 "
+		(property "Price" "$0.10"
 			(at 228.6 33.02 0)
 			(effects
 				(font
@@ -8216,7 +8225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.10 "
+		(property "Price" "$0.10"
 			(at 83.82 185.42 0)
 			(effects
 				(font
@@ -8382,7 +8391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.10 "
+		(property "Price" "$0.10"
 			(at 53.34 73.66 0)
 			(effects
 				(font
@@ -8558,7 +8567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.10 "
+		(property "Price" "$0.10"
 			(at 170.18 33.02 0)
 			(effects
 				(font
@@ -8707,7 +8716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.10 "
+		(property "Price" "$0.10"
 			(at 135.89 33.02 0)
 			(effects
 				(font
@@ -8995,7 +9004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.10 "
+		(property "Price" "$0.10"
 			(at 105.41 160.02 0)
 			(effects
 				(font
@@ -9160,7 +9169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.10 "
+		(property "Price" "$0.10"
 			(at 69.85 170.18 0)
 			(effects
 				(font
@@ -9345,7 +9354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.10 "
+		(property "Price" "$0.10"
 			(at 217.17 33.02 0)
 			(effects
 				(font
@@ -9494,7 +9503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.10 "
+		(property "Price" "$0.10"
 			(at 193.04 33.02 0)
 			(effects
 				(font
@@ -9625,7 +9634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.10 "
+		(property "Price" "$0.10"
 			(at 83.82 176.53 0)
 			(effects
 				(font
@@ -9944,7 +9953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.10 "
+		(property "Price" "$0.10"
 			(at 88.9 156.21 0)
 			(effects
 				(font
@@ -10126,7 +10135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.10 "
+		(property "Price" "$0.10"
 			(at 95.25 69.85 0)
 			(effects
 				(font
@@ -10275,7 +10284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.10 "
+		(property "Price" "$0.10"
 			(at 181.61 33.02 0)
 			(effects
 				(font

@@ -2314,7 +2314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.16 "
+		(property "Price" "$0.16"
 			(at 269.875 33.02 0)
 			(effects
 				(font
@@ -2874,7 +2874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.16 "
+		(property "Price" "$0.16"
 			(at 199.39 99.695 0)
 			(effects
 				(font
@@ -3031,7 +3031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" ""
+		(property "Supplier PN" "311-1869-1-ND"
 			(at 53.34 64.135 0)
 			(effects
 				(font
@@ -3140,16 +3140,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN " "WS2812C-2020"
-			(at 235.585 32.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Worldsemi "
+		(property "Manufacturer" "Worldsemi"
 			(at 235.585 32.385 0)
 			(effects
 				(font
@@ -3204,6 +3195,42 @@
 			)
 		)
 		(property "MPN" "WS2812B-2020 "
+			(at 235.585 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 235.585 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 235.585 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" ""
+			(at 235.585 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 235.585 32.385 0)
 			(effects
 				(font
@@ -3312,7 +3339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.16 "
+		(property "Price" "$0.16"
 			(at 199.39 89.535 0)
 			(effects
 				(font
@@ -3469,7 +3496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" ""
+		(property "Supplier PN" "311-1869-1-ND"
 			(at 80.645 64.135 0)
 			(effects
 				(font
